@@ -1,0 +1,3155 @@
+{
+  "Settings": {
+    "Use Teams": false,
+    "Use Clans": true,
+    "Use Friends": true,
+    "Use Entity Owners": true,
+    "Use Building Locks": false,
+    "Use Tool Cupboards (Strongly unrecommended)": false,
+    "Use Building Owners (You will need BuildingOwners plugin)": false,
+    "Remove Button": "FIRE_PRIMARY",
+    "Remove Interval (Min = 0.2)": 0.5,
+    "RemoveType - All/Structure - Remove per frame": 15,
+    "RemoveType - All/Structure - No item container dropped": true,
+    "RemoveType - Normal - Max Removable Objects - Exclude admins": true,
+    "RemoveType - Normal - Cooldown - Exclude admins": true,
+    "RemoveType - Normal - Check stash under the foundation": false,
+    "RemoveType - Normal - Entity Spawned Time Limit - Enabled": false,
+    "RemoveType - Normal - Entity Spawned Time Limit - Cannot be removed when entity spawned time more than it": 300.0
+  },
+  "Container Settings": {
+    "Storage Container - Enable remove of not empty storages": true,
+    "Storage Container - Drop items from container": false,
+    "Storage Container - Drop a item container from container": true,
+    "IOEntity Container - Enable remove of not empty storages": true,
+    "IOEntity Container - Drop items from container": false,
+    "IOEntity Container - Drop a item container from container": true
+  },
+  "Remove Damaged Entities": {
+    "Enabled": false,
+    "Exclude Building Blocks": true,
+    "Percentage (Can be removed when (health / max health * 100) is not less than it)": 90.0
+  },
+  "Chat Settings": {
+    "Chat Command": "remove",
+    "Chat Prefix": "<color=#00FFFF>[RemoverTool]</color>: ",
+    "Chat SteamID Icon": 0
+  },
+  "Permission Settings (Just for normal type)": {
+    "removertool.normal": {
+      "Priority": 0,
+      "Distance": 3.0,
+      "Cooldown": 60.0,
+      "Max Time": 300,
+      "Remove Interval (Min = 0.2)": 0.8,
+      "Max Removable Objects (0 = Unlimit)": 50,
+      "Pay": true,
+      "Refund": true,
+      "Reset the time after removing a entity": false
+    }
+  },
+  "Remove Type Settings": {
+    "Normal": {
+      "Display Name": "Normal",
+      "Distance": 3.0,
+      "Default Time": 60,
+      "Max Time": 300,
+      "Gibs": true,
+      "Reset the time after removing a entity": false
+    },
+    "Structure": {
+      "Display Name": "Structure",
+      "Distance": 100.0,
+      "Default Time": 300,
+      "Max Time": 600,
+      "Gibs": false,
+      "Reset the time after removing a entity": true
+    },
+    "All": {
+      "Display Name": "All",
+      "Distance": 50.0,
+      "Default Time": 300,
+      "Max Time": 600,
+      "Gibs": false,
+      "Reset the time after removing a entity": true
+    },
+    "Admin": {
+      "Display Name": "Admin",
+      "Distance": 20.0,
+      "Default Time": 300,
+      "Max Time": 600,
+      "Gibs": true,
+      "Reset the time after removing a entity": true
+    },
+    "External": {
+      "Display Name": "External",
+      "Distance": 20.0,
+      "Default Time": 300,
+      "Max Time": 600,
+      "Gibs": true,
+      "Reset the time after removing a entity": true
+    }
+  },
+  "Remove Mode Settings (Only one model works)": {
+    "No Held Item Mode": true,
+    "No Held Item Mode - Disable remover tool when you have any item in hand": true,
+    "No Held Item Mode - Show Crosshair": true,
+    "No Held Item Mode - Crosshair Image Url": "https://i.imgur.com/SqLCJaQ.png",
+    "No Held Item Mode - Crosshair Box - Min Anchor (in Rust Window)": "0.5 0.5",
+    "No Held Item Mode - Crosshair Box - Max Anchor (in Rust Window)": "0.5 0.5",
+    "No Held Item Mode - Crosshair Box - Min Offset (in Rust Window)": "-15 -15",
+    "No Held Item Mode - Crosshair Box - Max Offset (in Rust Window)": "15 15",
+    "No Held Item Mode - Crosshair Box - Image Color": "1 0 0 1",
+    "Melee Tool Hit Mode": false,
+    "Melee Tool Hit Mode - Item shortname": "hammer",
+    "Melee Tool Hit Mode - Item skin (-1 = All skins)": -1,
+    "Melee Tool Hit Mode - Requires a melee tool in your hand when remover tool is enabled": false,
+    "Melee Tool Hit Mode - Disable remover tool when you are not holding a melee tool": false,
+    "Specific Tool Mode": false,
+    "Specific Tool Mode - Item shortname": "hammer",
+    "Specific Tool Mode - Item skin (-1 = All skins)": -1
+  },
+  "Raid Blocker Settings": {
+    "Enabled": false,
+    "Block Time": 300.0,
+    "By Buildings": true,
+    "By Surrounding Players": true,
+    "By Surrounding Players - Radius": 120.0
+  },
+  "Image Urls (Used to UI image)": {
+    "Economics": "https://i.imgur.com/znPwdcv.png",
+    "ServerRewards": "https://i.imgur.com/04rJsV3.png"
+  },
+  "Display Names Of Other Things": {
+    "player": "player"
+  },
+  "GUI": {
+    "Enabled": true,
+    "Main Box - Min Anchor (in Rust Window)": "0 1",
+    "Main Box - Max Anchor (in Rust Window)": "0 1",
+    "Main Box - Min Offset (in Rust Window)": "30 -330",
+    "Main Box - Max Offset (in Rust Window)": "470 -40",
+    "Main Box - Background Color": "0 0 0 0",
+    "Remove Title - Box - Min Anchor (in Main Box)": "0 0.84",
+    "Remove Title - Box - Max Anchor (in Main Box)": "0.996 1",
+    "Remove Title - Box - Background Color": "0.42 0.88 0.88 1",
+    "Remove Title - Text - Min Anchor (in Main Box)": "0.05 0.84",
+    "Remove Title - Text - Max Anchor (in Main Box)": "0.6 1",
+    "Remove Title - Text - Text Color": "1 0.1 0.1 1",
+    "Remove Title - Text - Text Size": 18,
+    "Timeleft - Box - Min Anchor (in Main Box)": "0.6 0.84",
+    "Timeleft - Box - Max Anchor (in Main Box)": "1 1",
+    "Timeleft - Box - Background Color": "0 0 0 0",
+    "Timeleft - Text - Min Anchor (in Timeleft Box)": "0 0",
+    "Timeleft - Text - Max Anchor (in Timeleft Box)": "0.9 1",
+    "Timeleft - Text - Text Color": "0 0 0 0.9",
+    "Timeleft - Text - Text Size": 15,
+    "Entity - Box - Min Anchor (in Main Box)": "0 0.68",
+    "Entity - Box - Max Anchor (in Main Box)": "1 0.84",
+    "Entity - Box - Background Color": "0 0 0 0.8",
+    "Entity - Text - Min Anchor (in Entity Box)": "0.05 0",
+    "Entity - Text - Max Anchor (in Entity Box)": "1 1",
+    "Entity - Text - Text Color": "1 1 1 1",
+    "Entity - Text - Text Size": 16,
+    "Entity - Image - Enabled": true,
+    "Entity - Image - Min Anchor (in Entity Box)": "0.795 0.01",
+    "Entity - Image - Max Anchor (in Entity Box)": "0.9 0.99",
+    "Authorization Check Enabled": true,
+    "Authorization Check - Box - Min Anchor (in Main Box)": "0 0.6",
+    "Authorization Check - Box - Max Anchor (in Main Box)": "1 0.68",
+    "Authorization Check - Box - Allowed Background": "0 1 0 0.8",
+    "Authorization Check - Box - Refused Background": "1 0 0 0.8",
+    "Authorization Check - Text - Min Anchor (in Authorization Check Box)": "0.05 0",
+    "Authorization Check - Text - Max Anchor (in Authorization Check Box)": "1 1",
+    "Authorization Check - Text - Text Color": "1 1 1 0.9",
+    "Authorization Check Box - Text - Text Size": 14,
+    "Price & Refund - Image Enabled": true,
+    "Price & Refund - Image Scale": 0.18,
+    "Price & Refund - Distance of image from right border": 0.05,
+    "Price Enabled": true,
+    "Price - Box - Min Anchor (in Main Box)": "0 0.3",
+    "Price - Box - Max Anchor (in Main Box)": "1 0.6",
+    "Price - Box - Background Color": "0 0 0 0.8",
+    "Price - Text - Min Anchor (in Price Box)": "0.05 0",
+    "Price - Text - Max Anchor (in Price Box)": "0.25 1",
+    "Price - Text - Text Color": "1 1 1 0.9",
+    "Price - Text - Text Size": 18,
+    "Price - Text2 - Min Anchor (in Price Box)": "0.3 0",
+    "Price - Text2 - Max Anchor (in Price Box)": "1 1",
+    "Price - Text2 - Text Color": "1 1 1 0.9",
+    "Price - Text2 - Text Size": 16,
+    "Refund Enabled": true,
+    "Refund - Box - Min Anchor (in Main Box)": "0 0",
+    "Refund - Box - Max Anchor (in Main Box)": "1 0.3",
+    "Refund - Box - Background Color": "0 0 0 0.8",
+    "Refund - Text - Min Anchor (in Refund Box)": "0.05 0",
+    "Refund - Text - Max Anchor (in Refund Box)": "0.25 1",
+    "Refund - Text - Text Color": "1 1 1 0.9",
+    "Refund - Text - Text Size": 18,
+    "Refund - Text2 - Min Anchor (in Refund Box)": "0.3 0",
+    "Refund - Text2 - Max Anchor (in Refund Box)": "1 1",
+    "Refund - Text2 - Text Color": "1 1 1 0.9",
+    "Refund - Text2 - Text Size": 16
+  },
+  "Remove Info (Refund & Price)": {
+    "Price Enabled": true,
+    "Refund Enabled": true,
+    "Refund Items In Entity Slot": true,
+    "Allowed Building Grade": {
+      "Twigs": true,
+      "Wood": true,
+      "Stone": true,
+      "Metal": true,
+      "TopTier": true
+    },
+    "Building Blocks Settings": {
+      "Floor Frame": {
+        "Display Name": "Floor Frame",
+        "Building Grade": {
+          "Twigs": {
+            "Price": {
+              "wood": 15
+            },
+            "Refund": {
+              "wood": 10
+            }
+          },
+          "Wood": {
+            "Price": {
+              "wood": 60
+            },
+            "Refund": {
+              "wood": 40
+            }
+          },
+          "Stone": {
+            "Price": {
+              "stones": 90
+            },
+            "Refund": {
+              "stones": 60
+            }
+          },
+          "Metal": {
+            "Price": {
+              "metal.fragments": 60
+            },
+            "Refund": {
+              "metal.fragments": 40
+            }
+          },
+          "TopTier": {
+            "Price": {
+              "metal.refined": 8
+            },
+            "Refund": {
+              "metal.refined": 5
+            }
+          }
+        }
+      },
+      "Floor Triangle Frame": {
+        "Display Name": "Floor Triangle Frame",
+        "Building Grade": {
+          "Twigs": {
+            "Price": {
+              "wood": 8
+            },
+            "Refund": {
+              "wood": 5
+            }
+          },
+          "Wood": {
+            "Price": {
+              "wood": 30
+            },
+            "Refund": {
+              "wood": 20
+            }
+          },
+          "Stone": {
+            "Price": {
+              "stones": 45
+            },
+            "Refund": {
+              "stones": 30
+            }
+          },
+          "Metal": {
+            "Price": {
+              "metal.fragments": 30
+            },
+            "Refund": {
+              "metal.fragments": 20
+            }
+          },
+          "TopTier": {
+            "Price": {
+              "metal.refined": 4
+            },
+            "Refund": {
+              "metal.refined": 3
+            }
+          }
+        }
+      },
+      "Floor Triangle": {
+        "Display Name": "Floor Triangle",
+        "Building Grade": {
+          "Twigs": {
+            "Price": {
+              "wood": 8
+            },
+            "Refund": {
+              "wood": 5
+            }
+          },
+          "Wood": {
+            "Price": {
+              "wood": 30
+            },
+            "Refund": {
+              "wood": 20
+            }
+          },
+          "Stone": {
+            "Price": {
+              "stones": 45
+            },
+            "Refund": {
+              "stones": 30
+            }
+          },
+          "Metal": {
+            "Price": {
+              "metal.fragments": 30
+            },
+            "Refund": {
+              "metal.fragments": 20
+            }
+          },
+          "TopTier": {
+            "Price": {
+              "metal.refined": 4
+            },
+            "Refund": {
+              "metal.refined": 3
+            }
+          }
+        }
+      },
+      "Floor": {
+        "Display Name": "Floor",
+        "Building Grade": {
+          "Twigs": {
+            "Price": {
+              "wood": 15
+            },
+            "Refund": {
+              "wood": 10
+            }
+          },
+          "Wood": {
+            "Price": {
+              "wood": 60
+            },
+            "Refund": {
+              "wood": 40
+            }
+          },
+          "Stone": {
+            "Price": {
+              "stones": 90
+            },
+            "Refund": {
+              "stones": 60
+            }
+          },
+          "Metal": {
+            "Price": {
+              "metal.fragments": 60
+            },
+            "Refund": {
+              "metal.fragments": 40
+            }
+          },
+          "TopTier": {
+            "Price": {
+              "metal.refined": 8
+            },
+            "Refund": {
+              "metal.refined": 5
+            }
+          }
+        }
+      },
+      "Steps": {
+        "Display Name": "Steps",
+        "Building Grade": {
+          "Twigs": {
+            "Price": {
+              "wood": 15
+            },
+            "Refund": {
+              "wood": 10
+            }
+          },
+          "Wood": {
+            "Price": {
+              "wood": 60
+            },
+            "Refund": {
+              "wood": 40
+            }
+          },
+          "Stone": {
+            "Price": {
+              "stones": 90
+            },
+            "Refund": {
+              "stones": 60
+            }
+          },
+          "Metal": {
+            "Price": {
+              "metal.fragments": 60
+            },
+            "Refund": {
+              "metal.fragments": 40
+            }
+          },
+          "TopTier": {
+            "Price": {
+              "metal.refined": 8
+            },
+            "Refund": {
+              "metal.refined": 5
+            }
+          }
+        }
+      },
+      "Triangle Foundation": {
+        "Display Name": "Triangle Foundation",
+        "Building Grade": {
+          "Twigs": {
+            "Price": {
+              "wood": 15
+            },
+            "Refund": {
+              "wood": 10
+            }
+          },
+          "Wood": {
+            "Price": {
+              "wood": 60
+            },
+            "Refund": {
+              "wood": 40
+            }
+          },
+          "Stone": {
+            "Price": {
+              "stones": 90
+            },
+            "Refund": {
+              "stones": 60
+            }
+          },
+          "Metal": {
+            "Price": {
+              "metal.fragments": 60
+            },
+            "Refund": {
+              "metal.fragments": 40
+            }
+          },
+          "TopTier": {
+            "Price": {
+              "metal.refined": 8
+            },
+            "Refund": {
+              "metal.refined": 5
+            }
+          }
+        }
+      },
+      "Foundation": {
+        "Display Name": "Foundation",
+        "Building Grade": {
+          "Twigs": {
+            "Price": {
+              "wood": 30
+            },
+            "Refund": {
+              "wood": 20
+            }
+          },
+          "Wood": {
+            "Price": {
+              "wood": 120
+            },
+            "Refund": {
+              "wood": 80
+            }
+          },
+          "Stone": {
+            "Price": {
+              "stones": 180
+            },
+            "Refund": {
+              "stones": 120
+            }
+          },
+          "Metal": {
+            "Price": {
+              "metal.fragments": 120
+            },
+            "Refund": {
+              "metal.fragments": 80
+            }
+          },
+          "TopTier": {
+            "Price": {
+              "metal.refined": 15
+            },
+            "Refund": {
+              "metal.refined": 10
+            }
+          }
+        }
+      },
+      "A ramp": {
+        "Display Name": "A ramp",
+        "Building Grade": {
+          "Twigs": {
+            "Price": {
+              "wood": 15
+            },
+            "Refund": {
+              "wood": 10
+            }
+          },
+          "Wood": {
+            "Price": {
+              "wood": 60
+            },
+            "Refund": {
+              "wood": 40
+            }
+          },
+          "Stone": {
+            "Price": {
+              "stones": 90
+            },
+            "Refund": {
+              "stones": 60
+            }
+          },
+          "Metal": {
+            "Price": {
+              "metal.fragments": 60
+            },
+            "Refund": {
+              "metal.fragments": 40
+            }
+          },
+          "TopTier": {
+            "Price": {
+              "metal.refined": 8
+            },
+            "Refund": {
+              "metal.refined": 5
+            }
+          }
+        }
+      },
+      "Roof Triangle": {
+        "Display Name": "Roof Triangle",
+        "Building Grade": {
+          "Twigs": {
+            "Price": {
+              "wood": 15
+            },
+            "Refund": {
+              "wood": 10
+            }
+          },
+          "Wood": {
+            "Price": {
+              "wood": 60
+            },
+            "Refund": {
+              "wood": 40
+            }
+          },
+          "Stone": {
+            "Price": {
+              "stones": 90
+            },
+            "Refund": {
+              "stones": 60
+            }
+          },
+          "Metal": {
+            "Price": {
+              "metal.fragments": 60
+            },
+            "Refund": {
+              "metal.fragments": 40
+            }
+          },
+          "TopTier": {
+            "Price": {
+              "metal.refined": 8
+            },
+            "Refund": {
+              "metal.refined": 5
+            }
+          }
+        }
+      },
+      "Roof": {
+        "Display Name": "Roof",
+        "Building Grade": {
+          "Twigs": {
+            "Price": {
+              "wood": 15
+            },
+            "Refund": {
+              "wood": 10
+            }
+          },
+          "Wood": {
+            "Price": {
+              "wood": 60
+            },
+            "Refund": {
+              "wood": 40
+            }
+          },
+          "Stone": {
+            "Price": {
+              "stones": 90
+            },
+            "Refund": {
+              "stones": 60
+            }
+          },
+          "Metal": {
+            "Price": {
+              "metal.fragments": 60
+            },
+            "Refund": {
+              "metal.fragments": 40
+            }
+          },
+          "TopTier": {
+            "Price": {
+              "metal.refined": 8
+            },
+            "Refund": {
+              "metal.refined": 5
+            }
+          }
+        }
+      },
+      "Stairs L Shape": {
+        "Display Name": "Stairs L Shape",
+        "Building Grade": {
+          "Twigs": {
+            "Price": {
+              "wood": 30
+            },
+            "Refund": {
+              "wood": 20
+            }
+          },
+          "Wood": {
+            "Price": {
+              "wood": 120
+            },
+            "Refund": {
+              "wood": 80
+            }
+          },
+          "Stone": {
+            "Price": {
+              "stones": 180
+            },
+            "Refund": {
+              "stones": 120
+            }
+          },
+          "Metal": {
+            "Price": {
+              "metal.fragments": 120
+            },
+            "Refund": {
+              "metal.fragments": 80
+            }
+          },
+          "TopTier": {
+            "Price": {
+              "metal.refined": 15
+            },
+            "Refund": {
+              "metal.refined": 10
+            }
+          }
+        }
+      },
+      "Stairs Spiral Triangle": {
+        "Display Name": "Stairs Spiral Triangle",
+        "Building Grade": {
+          "Twigs": {
+            "Price": {
+              "wood": 30
+            },
+            "Refund": {
+              "wood": 20
+            }
+          },
+          "Wood": {
+            "Price": {
+              "wood": 120
+            },
+            "Refund": {
+              "wood": 80
+            }
+          },
+          "Stone": {
+            "Price": {
+              "stones": 180
+            },
+            "Refund": {
+              "stones": 120
+            }
+          },
+          "Metal": {
+            "Price": {
+              "metal.fragments": 120
+            },
+            "Refund": {
+              "metal.fragments": 80
+            }
+          },
+          "TopTier": {
+            "Price": {
+              "metal.refined": 15
+            },
+            "Refund": {
+              "metal.refined": 10
+            }
+          }
+        }
+      },
+      "Stairs Spiral": {
+        "Display Name": "Stairs Spiral",
+        "Building Grade": {
+          "Twigs": {
+            "Price": {
+              "wood": 30
+            },
+            "Refund": {
+              "wood": 20
+            }
+          },
+          "Wood": {
+            "Price": {
+              "wood": 120
+            },
+            "Refund": {
+              "wood": 80
+            }
+          },
+          "Stone": {
+            "Price": {
+              "stones": 180
+            },
+            "Refund": {
+              "stones": 120
+            }
+          },
+          "Metal": {
+            "Price": {
+              "metal.fragments": 120
+            },
+            "Refund": {
+              "metal.fragments": 80
+            }
+          },
+          "TopTier": {
+            "Price": {
+              "metal.refined": 15
+            },
+            "Refund": {
+              "metal.refined": 10
+            }
+          }
+        }
+      },
+      "U Shaped Stairs": {
+        "Display Name": "U Shaped Stairs",
+        "Building Grade": {
+          "Twigs": {
+            "Price": {
+              "wood": 30
+            },
+            "Refund": {
+              "wood": 20
+            }
+          },
+          "Wood": {
+            "Price": {
+              "wood": 120
+            },
+            "Refund": {
+              "wood": 80
+            }
+          },
+          "Stone": {
+            "Price": {
+              "stones": 180
+            },
+            "Refund": {
+              "stones": 120
+            }
+          },
+          "Metal": {
+            "Price": {
+              "metal.fragments": 120
+            },
+            "Refund": {
+              "metal.fragments": 80
+            }
+          },
+          "TopTier": {
+            "Price": {
+              "metal.refined": 15
+            },
+            "Refund": {
+              "metal.refined": 10
+            }
+          }
+        }
+      },
+      "Doorway": {
+        "Display Name": "Doorway",
+        "Building Grade": {
+          "Twigs": {
+            "Price": {
+              "wood": 21
+            },
+            "Refund": {
+              "wood": 14
+            }
+          },
+          "Wood": {
+            "Price": {
+              "wood": 84
+            },
+            "Refund": {
+              "wood": 56
+            }
+          },
+          "Stone": {
+            "Price": {
+              "stones": 126
+            },
+            "Refund": {
+              "stones": 84
+            }
+          },
+          "Metal": {
+            "Price": {
+              "metal.fragments": 84
+            },
+            "Refund": {
+              "metal.fragments": 56
+            }
+          },
+          "TopTier": {
+            "Price": {
+              "metal.refined": 11
+            },
+            "Refund": {
+              "metal.refined": 7
+            }
+          }
+        }
+      },
+      "Wall Frame": {
+        "Display Name": "Wall Frame",
+        "Building Grade": {
+          "Twigs": {
+            "Price": {
+              "wood": 15
+            },
+            "Refund": {
+              "wood": 10
+            }
+          },
+          "Wood": {
+            "Price": {
+              "wood": 60
+            },
+            "Refund": {
+              "wood": 40
+            }
+          },
+          "Stone": {
+            "Price": {
+              "stones": 90
+            },
+            "Refund": {
+              "stones": 60
+            }
+          },
+          "Metal": {
+            "Price": {
+              "metal.fragments": 60
+            },
+            "Refund": {
+              "metal.fragments": 40
+            }
+          },
+          "TopTier": {
+            "Price": {
+              "metal.refined": 8
+            },
+            "Refund": {
+              "metal.refined": 5
+            }
+          }
+        }
+      },
+      "Half Wall": {
+        "Display Name": "Half Wall",
+        "Building Grade": {
+          "Twigs": {
+            "Price": {
+              "wood": 30
+            },
+            "Refund": {
+              "wood": 20
+            }
+          },
+          "Wood": {
+            "Price": {
+              "wood": 120
+            },
+            "Refund": {
+              "wood": 80
+            }
+          },
+          "Stone": {
+            "Price": {
+              "stones": 180
+            },
+            "Refund": {
+              "stones": 120
+            }
+          },
+          "Metal": {
+            "Price": {
+              "metal.fragments": 120
+            },
+            "Refund": {
+              "metal.fragments": 80
+            }
+          },
+          "TopTier": {
+            "Price": {
+              "metal.refined": 15
+            },
+            "Refund": {
+              "metal.refined": 10
+            }
+          }
+        }
+      },
+      "Low Wall": {
+        "Display Name": "Low Wall",
+        "Building Grade": {
+          "Twigs": {
+            "Price": {
+              "wood": 15
+            },
+            "Refund": {
+              "wood": 10
+            }
+          },
+          "Wood": {
+            "Price": {
+              "wood": 60
+            },
+            "Refund": {
+              "wood": 40
+            }
+          },
+          "Stone": {
+            "Price": {
+              "stones": 90
+            },
+            "Refund": {
+              "stones": 60
+            }
+          },
+          "Metal": {
+            "Price": {
+              "metal.fragments": 60
+            },
+            "Refund": {
+              "metal.fragments": 40
+            }
+          },
+          "TopTier": {
+            "Price": {
+              "metal.refined": 8
+            },
+            "Refund": {
+              "metal.refined": 5
+            }
+          }
+        }
+      },
+      "Window": {
+        "Display Name": "Window",
+        "Building Grade": {
+          "Twigs": {
+            "Price": {
+              "wood": 21
+            },
+            "Refund": {
+              "wood": 14
+            }
+          },
+          "Wood": {
+            "Price": {
+              "wood": 84
+            },
+            "Refund": {
+              "wood": 56
+            }
+          },
+          "Stone": {
+            "Price": {
+              "stones": 126
+            },
+            "Refund": {
+              "stones": 84
+            }
+          },
+          "Metal": {
+            "Price": {
+              "metal.fragments": 84
+            },
+            "Refund": {
+              "metal.fragments": 56
+            }
+          },
+          "TopTier": {
+            "Price": {
+              "metal.refined": 11
+            },
+            "Refund": {
+              "metal.refined": 7
+            }
+          }
+        }
+      },
+      "Wall": {
+        "Display Name": "Wall",
+        "Building Grade": {
+          "Twigs": {
+            "Price": {
+              "wood": 30
+            },
+            "Refund": {
+              "wood": 20
+            }
+          },
+          "Wood": {
+            "Price": {
+              "wood": 120
+            },
+            "Refund": {
+              "wood": 80
+            }
+          },
+          "Stone": {
+            "Price": {
+              "stones": 180
+            },
+            "Refund": {
+              "stones": 120
+            }
+          },
+          "Metal": {
+            "Price": {
+              "metal.fragments": 120
+            },
+            "Refund": {
+              "metal.fragments": 80
+            }
+          },
+          "TopTier": {
+            "Price": {
+              "metal.refined": 15
+            },
+            "Refund": {
+              "metal.refined": 10
+            }
+          }
+        }
+      }
+    },
+    "Other Entity Settings": {
+      "fogmachine": {
+        "Remove Allowed": true,
+        "Display Name": "Fogger-3000",
+        "Price": {},
+        "Refund": {
+          "fogmachine": 1
+        }
+      },
+      "strobelight": {
+        "Remove Allowed": true,
+        "Display Name": "Strobe Light",
+        "Price": {},
+        "Refund": {
+          "strobelight": 1
+        }
+      },
+      "kayak": {
+        "Remove Allowed": true,
+        "Display Name": "Kayak",
+        "Price": {},
+        "Refund": {
+          "kayak": 1
+        }
+      },
+      "door.double.hinged.metal": {
+        "Remove Allowed": true,
+        "Display Name": "Sheet Metal Double Door",
+        "Price": {},
+        "Refund": {
+          "door.double.hinged.metal": 1
+        }
+      },
+      "door.double.hinged.toptier": {
+        "Remove Allowed": true,
+        "Display Name": "Armored Double Door",
+        "Price": {},
+        "Refund": {
+          "door.double.hinged.toptier": 1
+        }
+      },
+      "door.double.hinged.wood": {
+        "Remove Allowed": true,
+        "Display Name": "Wood Double Door",
+        "Price": {},
+        "Refund": {
+          "door.double.hinged.wood": 1
+        }
+      },
+      "door.hinged.metal": {
+        "Remove Allowed": true,
+        "Display Name": "Sheet Metal Door",
+        "Price": {},
+        "Refund": {
+          "door.hinged.metal": 1
+        }
+      },
+      "door.hinged.toptier": {
+        "Remove Allowed": true,
+        "Display Name": "Armored Door",
+        "Price": {},
+        "Refund": {
+          "door.hinged.toptier": 1
+        }
+      },
+      "door.hinged.wood": {
+        "Remove Allowed": true,
+        "Display Name": "Wooden Door",
+        "Price": {},
+        "Refund": {
+          "door.hinged.wood": 1
+        }
+      },
+      "floor.grill": {
+        "Remove Allowed": true,
+        "Display Name": "Floor grill",
+        "Price": {},
+        "Refund": {
+          "floor.grill": 1
+        }
+      },
+      "floor.ladder.hatch": {
+        "Remove Allowed": true,
+        "Display Name": "Ladder Hatch",
+        "Price": {},
+        "Refund": {
+          "floor.ladder.hatch": 1
+        }
+      },
+      "floor.triangle.grill": {
+        "Remove Allowed": true,
+        "Display Name": "Floor triangle grill",
+        "Price": {},
+        "Refund": {
+          "floor.triangle.grill": 1
+        }
+      },
+      "floor.triangle.ladder.hatch": {
+        "Remove Allowed": true,
+        "Display Name": "Triangle Ladder Hatch",
+        "Price": {},
+        "Refund": {
+          "floor.triangle.ladder.hatch": 1
+        }
+      },
+      "gates.external.high.stone": {
+        "Remove Allowed": true,
+        "Display Name": "High External Stone Gate",
+        "Price": {},
+        "Refund": {
+          "gates.external.high.stone": 1
+        }
+      },
+      "gates.external.high.wood": {
+        "Remove Allowed": true,
+        "Display Name": "High External Wooden Gate",
+        "Price": {},
+        "Refund": {
+          "gates.external.high.wood": 1
+        }
+      },
+      "ladder.wooden.wall": {
+        "Remove Allowed": true,
+        "Display Name": "Wooden Ladder",
+        "Price": {},
+        "Refund": {
+          "ladder.wooden.wall": 1
+        }
+      },
+      "wall.external.high.stone": {
+        "Remove Allowed": true,
+        "Display Name": "High External Stone Wall",
+        "Price": {},
+        "Refund": {
+          "wall.external.high.stone": 1
+        }
+      },
+      "wall.external.high.wood": {
+        "Remove Allowed": true,
+        "Display Name": "High External Wooden Wall",
+        "Price": {},
+        "Refund": {
+          "wall.external.high": 1
+        }
+      },
+      "wall.frame.cell.gate": {
+        "Remove Allowed": true,
+        "Display Name": "Prison Cell Gate",
+        "Price": {},
+        "Refund": {
+          "wall.frame.cell.gate": 1
+        }
+      },
+      "wall.frame.cell": {
+        "Remove Allowed": true,
+        "Display Name": "Prison Cell Wall",
+        "Price": {},
+        "Refund": {
+          "wall.frame.cell": 1
+        }
+      },
+      "wall.frame.fence.gate": {
+        "Remove Allowed": true,
+        "Display Name": "Chainlink Fence Gate",
+        "Price": {},
+        "Refund": {
+          "wall.frame.fence.gate": 1
+        }
+      },
+      "wall.frame.fence": {
+        "Remove Allowed": true,
+        "Display Name": "Chainlink Fence",
+        "Price": {},
+        "Refund": {
+          "wall.frame.fence": 1
+        }
+      },
+      "wall.frame.garagedoor": {
+        "Remove Allowed": true,
+        "Display Name": "Garage Door",
+        "Price": {},
+        "Refund": {
+          "wall.frame.garagedoor": 1
+        }
+      },
+      "wall.frame.netting": {
+        "Remove Allowed": true,
+        "Display Name": "Netting",
+        "Price": {},
+        "Refund": {
+          "wall.frame.netting": 1
+        }
+      },
+      "wall.frame.shopfront": {
+        "Remove Allowed": true,
+        "Display Name": "Shop Front",
+        "Price": {},
+        "Refund": {
+          "wall.frame.shopfront": 1
+        }
+      },
+      "wall.frame.shopfront.metal": {
+        "Remove Allowed": true,
+        "Display Name": "Metal Shop Front",
+        "Price": {},
+        "Refund": {
+          "wall.frame.shopfront.metal": 1
+        }
+      },
+      "wall.window.bars.metal": {
+        "Remove Allowed": true,
+        "Display Name": "Metal Window Bars",
+        "Price": {},
+        "Refund": {
+          "wall.window.bars.metal": 1
+        }
+      },
+      "wall.window.bars.toptier": {
+        "Remove Allowed": true,
+        "Display Name": "Reinforced Glass Window",
+        "Price": {},
+        "Refund": {
+          "wall.window.bars.toptier": 1
+        }
+      },
+      "wall.window.bars.wood": {
+        "Remove Allowed": true,
+        "Display Name": "Wooden Window Bars",
+        "Price": {},
+        "Refund": {
+          "wall.window.bars.wood": 1
+        }
+      },
+      "shutter.metal.embrasure.a": {
+        "Remove Allowed": true,
+        "Display Name": "Metal horizontal embrasure",
+        "Price": {},
+        "Refund": {
+          "shutter.metal.embrasure.a": 1
+        }
+      },
+      "shutter.metal.embrasure.b": {
+        "Remove Allowed": true,
+        "Display Name": "Metal Vertical embrasure",
+        "Price": {},
+        "Refund": {
+          "shutter.metal.embrasure.b": 1
+        }
+      },
+      "wall.window.glass.reinforced": {
+        "Remove Allowed": true,
+        "Display Name": "Strengthened Glass Window",
+        "Price": {},
+        "Refund": {
+          "wall.window.glass.reinforced": 1
+        }
+      },
+      "shutter.wood.a": {
+        "Remove Allowed": true,
+        "Display Name": "Wood Shutters",
+        "Price": {},
+        "Refund": {
+          "shutter.wood.a": 1
+        }
+      },
+      "watchtower.wood": {
+        "Remove Allowed": true,
+        "Display Name": "Watch Tower",
+        "Price": {},
+        "Refund": {
+          "watchtower.wood": 1
+        }
+      },
+      "barricade.concrete": {
+        "Remove Allowed": true,
+        "Display Name": "Concrete Barricade",
+        "Price": {},
+        "Refund": {
+          "barricade.concrete": 1
+        }
+      },
+      "barricade.cover.wood": {
+        "Remove Allowed": true,
+        "Display Name": "Wooden Barricade Cover",
+        "Price": {},
+        "Refund": {
+          "barricade.wood.cover": 1
+        }
+      },
+      "barricade.metal": {
+        "Remove Allowed": true,
+        "Display Name": "Metal Barricade",
+        "Price": {},
+        "Refund": {
+          "barricade.metal": 1
+        }
+      },
+      "barricade.sandbags": {
+        "Remove Allowed": true,
+        "Display Name": "Sandbag Barricade",
+        "Price": {},
+        "Refund": {
+          "barricade.sandbags": 1
+        }
+      },
+      "barricade.stone": {
+        "Remove Allowed": true,
+        "Display Name": "Stone Barricade",
+        "Price": {},
+        "Refund": {
+          "barricade.stone": 1
+        }
+      },
+      "barricade.wood": {
+        "Remove Allowed": true,
+        "Display Name": "Wooden Barricade",
+        "Price": {},
+        "Refund": {
+          "barricade.wood": 1
+        }
+      },
+      "barricade.woodwire": {
+        "Remove Allowed": true,
+        "Display Name": "Barbed Wooden Barricade",
+        "Price": {},
+        "Refund": {
+          "barricade.woodwire": 1
+        }
+      },
+      "bbq.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Barbeque",
+        "Price": {},
+        "Refund": {
+          "bbq": 1
+        }
+      },
+      "beartrap": {
+        "Remove Allowed": true,
+        "Display Name": "Snap Trap",
+        "Price": {},
+        "Refund": {
+          "trap.bear": 1
+        }
+      },
+      "bed_deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Bed",
+        "Price": {},
+        "Refund": {
+          "bed": 1
+        }
+      },
+      "campfire": {
+        "Remove Allowed": true,
+        "Display Name": "Camp Fire",
+        "Price": {},
+        "Refund": {
+          "campfire": 1
+        }
+      },
+      "ceilinglight.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Ceiling Light",
+        "Price": {},
+        "Refund": {
+          "ceilinglight": 1
+        }
+      },
+      "chair.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Chair",
+        "Price": {},
+        "Refund": {
+          "chair": 1
+        }
+      },
+      "composter": {
+        "Remove Allowed": true,
+        "Display Name": "Composter",
+        "Price": {},
+        "Refund": {
+          "composter": 1
+        }
+      },
+      "computerstation.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Computer Station",
+        "Price": {},
+        "Refund": {
+          "computerstation": 1
+        }
+      },
+      "dropbox.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Drop Box",
+        "Price": {},
+        "Refund": {
+          "dropbox": 1
+        }
+      },
+      "elevator": {
+        "Remove Allowed": true,
+        "Display Name": "Elevator",
+        "Price": {},
+        "Refund": {
+          "elevator": 1
+        }
+      },
+      "fireplace.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Stone Fireplace",
+        "Price": {},
+        "Refund": {
+          "fireplace.stone": 1
+        }
+      },
+      "mortarblue": {
+        "Remove Allowed": true,
+        "Display Name": "Blue Boomer",
+        "Price": {},
+        "Refund": {
+          "firework.boomer.blue": 1
+        }
+      },
+      "mortarchampagne": {
+        "Remove Allowed": true,
+        "Display Name": "Champagne Boomer",
+        "Price": {},
+        "Refund": {
+          "firework.boomer.champagne": 1
+        }
+      },
+      "mortargreen": {
+        "Remove Allowed": true,
+        "Display Name": "Green Boomer",
+        "Price": {},
+        "Refund": {
+          "firework.boomer.green": 1
+        }
+      },
+      "mortarorange": {
+        "Remove Allowed": true,
+        "Display Name": "Orange Boomer",
+        "Price": {},
+        "Refund": {
+          "firework.boomer.orange": 1
+        }
+      },
+      "mortarred": {
+        "Remove Allowed": true,
+        "Display Name": "Red Boomer",
+        "Price": {},
+        "Refund": {
+          "firework.boomer.red": 1
+        }
+      },
+      "mortarviolet": {
+        "Remove Allowed": true,
+        "Display Name": "Violet Boomer",
+        "Price": {},
+        "Refund": {
+          "firework.boomer.violet": 1
+        }
+      },
+      "romancandle-blue": {
+        "Remove Allowed": true,
+        "Display Name": "Blue Roman Candle",
+        "Price": {},
+        "Refund": {
+          "firework.romancandle.blue": 1
+        }
+      },
+      "romancandle-green": {
+        "Remove Allowed": true,
+        "Display Name": "Green Roman Candle",
+        "Price": {},
+        "Refund": {
+          "firework.romancandle.green": 1
+        }
+      },
+      "romancandle": {
+        "Remove Allowed": true,
+        "Display Name": "Red Roman Candle",
+        "Price": {},
+        "Refund": {
+          "firework.romancandle.red": 1
+        }
+      },
+      "romancandle-violet": {
+        "Remove Allowed": true,
+        "Display Name": "Violet Roman Candle",
+        "Price": {},
+        "Refund": {
+          "firework.romancandle.violet": 1
+        }
+      },
+      "volcanofirework": {
+        "Remove Allowed": true,
+        "Display Name": "White Volcano Firework",
+        "Price": {},
+        "Refund": {
+          "firework.volcano": 1
+        }
+      },
+      "volcanofirework-red": {
+        "Remove Allowed": true,
+        "Display Name": "Red Volcano Firework",
+        "Price": {},
+        "Refund": {
+          "firework.volcano.red": 1
+        }
+      },
+      "volcanofirework-violet": {
+        "Remove Allowed": true,
+        "Display Name": "Violet Volcano Firework",
+        "Price": {},
+        "Refund": {
+          "firework.volcano.violet": 1
+        }
+      },
+      "spikes.floor": {
+        "Remove Allowed": true,
+        "Display Name": "Wooden Floor Spikes",
+        "Price": {},
+        "Refund": {
+          "spikes.floor": 1
+        }
+      },
+      "fridge.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Fridge",
+        "Price": {},
+        "Refund": {
+          "fridge": 1
+        }
+      },
+      "furnace.large": {
+        "Remove Allowed": true,
+        "Display Name": "Large Furnace",
+        "Price": {},
+        "Refund": {
+          "furnace.large": 1
+        }
+      },
+      "furnace": {
+        "Remove Allowed": true,
+        "Display Name": "Furnace",
+        "Price": {},
+        "Refund": {
+          "furnace": 1
+        }
+      },
+      "hitchtrough.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Hitch & Trough",
+        "Price": {},
+        "Refund": {
+          "hitchtroughcombo": 1
+        }
+      },
+      "jackolantern.angry": {
+        "Remove Allowed": true,
+        "Display Name": "Jack O Lantern Angry",
+        "Price": {},
+        "Refund": {
+          "jackolantern.angry": 1
+        }
+      },
+      "jackolantern.happy": {
+        "Remove Allowed": true,
+        "Display Name": "Jack O Lantern Happy",
+        "Price": {},
+        "Refund": {
+          "jackolantern.happy": 1
+        }
+      },
+      "landmine": {
+        "Remove Allowed": true,
+        "Display Name": "Land Mine",
+        "Price": {},
+        "Refund": {
+          "trap.landmine": 1
+        }
+      },
+      "lantern.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Lantern",
+        "Price": {},
+        "Refund": {
+          "lantern": 1
+        }
+      },
+      "box.wooden.large": {
+        "Remove Allowed": true,
+        "Display Name": "Large Wood Box",
+        "Price": {},
+        "Refund": {
+          "box.wooden.large": 1
+        }
+      },
+      "waterbarrel": {
+        "Remove Allowed": true,
+        "Display Name": "Water Barrel",
+        "Price": {},
+        "Refund": {
+          "water.barrel": 1
+        }
+      },
+      "locker.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Locker",
+        "Price": {},
+        "Refund": {
+          "locker": 1
+        }
+      },
+      "mailbox.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Mail Box",
+        "Price": {},
+        "Refund": {
+          "mailbox": 1
+        }
+      },
+      "mixingtable.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Mixing Table",
+        "Price": {},
+        "Refund": {
+          "mixingtable": 1
+        }
+      },
+      "electrical.modularcarlift.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Modular Car Lift",
+        "Price": {},
+        "Refund": {
+          "modularcarlift": 1
+        }
+      },
+      "mining.pumpjack": {
+        "Remove Allowed": true,
+        "Display Name": "Pump Jack",
+        "Price": {},
+        "Refund": {
+          "mining.pumpjack": 1
+        }
+      },
+      "refinery_small_deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Small Oil Refinery",
+        "Price": {},
+        "Refund": {
+          "small.oil.refinery": 1
+        }
+      },
+      "planter.large.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Large Planter Box",
+        "Price": {},
+        "Refund": {
+          "planter.large": 1
+        }
+      },
+      "planter.small.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Small Planter Box",
+        "Price": {},
+        "Refund": {
+          "planter.small": 1
+        }
+      },
+      "audioalarm": {
+        "Remove Allowed": true,
+        "Display Name": "Audio Alarm",
+        "Price": {},
+        "Refund": {
+          "electric.audioalarm": 1
+        }
+      },
+      "smartalarm": {
+        "Remove Allowed": true,
+        "Display Name": "Smart Alarm",
+        "Price": {},
+        "Refund": {
+          "smart.alarm": 1
+        }
+      },
+      "smartswitch": {
+        "Remove Allowed": true,
+        "Display Name": "Smart Switch",
+        "Price": {},
+        "Refund": {
+          "smart.switch": 1
+        }
+      },
+      "storagemonitor.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Storage Monitor",
+        "Price": {},
+        "Refund": {
+          "storage.monitor": 1
+        }
+      },
+      "large.rechargable.battery.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Large Rechargable Battery",
+        "Price": {},
+        "Refund": {
+          "electric.battery.rechargable.large": 1
+        }
+      },
+      "medium.rechargable.battery.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Medium Rechargable Battery",
+        "Price": {},
+        "Refund": {
+          "electric.battery.rechargable.medium": 1
+        }
+      },
+      "smallrechargablebattery.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Small Rechargable Battery",
+        "Price": {},
+        "Refund": {
+          "electric.battery.rechargable.small": 1
+        }
+      },
+      "button": {
+        "Remove Allowed": true,
+        "Display Name": "Button",
+        "Price": {},
+        "Refund": {
+          "electric.button": 1
+        }
+      },
+      "counter": {
+        "Remove Allowed": true,
+        "Display Name": "Counter",
+        "Price": {},
+        "Refund": {
+          "electric.counter": 1
+        }
+      },
+      "hbhfsensor.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "HBHF Sensor",
+        "Price": {},
+        "Refund": {
+          "electric.hbhfsensor": 1
+        }
+      },
+      "laserdetector": {
+        "Remove Allowed": true,
+        "Display Name": "Laser Detector",
+        "Price": {},
+        "Refund": {
+          "electric.laserdetector": 1
+        }
+      },
+      "pressurepad.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Pressure Pad",
+        "Price": {},
+        "Refund": {
+          "electric.pressurepad": 1
+        }
+      },
+      "doorcontroller.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Door Controller",
+        "Price": {},
+        "Refund": {
+          "electric.doorcontroller": 1
+        }
+      },
+      "electrical.heater": {
+        "Remove Allowed": true,
+        "Display Name": "Electric Heater",
+        "Price": {},
+        "Refund": {
+          "electric.heater": 1
+        }
+      },
+      "fluid.combiner.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Fluid Combiner",
+        "Price": {},
+        "Refund": {
+          "fluid.combiner": 1
+        }
+      },
+      "fluidsplitter": {
+        "Remove Allowed": true,
+        "Display Name": "Fluid Splitter",
+        "Price": {},
+        "Refund": {
+          "fluid.splitter": 1
+        }
+      },
+      "fluidswitch": {
+        "Remove Allowed": true,
+        "Display Name": "Fluid Switch & Pump",
+        "Price": {},
+        "Refund": {
+          "fluid.switch": 1
+        }
+      },
+      "andswitch.entity": {
+        "Remove Allowed": true,
+        "Display Name": "AND Switch",
+        "Price": {},
+        "Refund": {
+          "electric.andswitch": 1
+        }
+      },
+      "electrical.blocker.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Blocker",
+        "Price": {},
+        "Refund": {
+          "electric.blocker": 1
+        }
+      },
+      "electrical.branch.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Electrical Branch",
+        "Price": {},
+        "Refund": {
+          "electrical.branch": 1
+        }
+      },
+      "electrical.combiner.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Root Combiner",
+        "Price": {},
+        "Refund": {
+          "electrical.combiner": 1
+        }
+      },
+      "electrical.memorycell.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Memory Cell",
+        "Price": {},
+        "Refund": {
+          "electrical.memorycell": 1
+        }
+      },
+      "orswitch.entity": {
+        "Remove Allowed": true,
+        "Display Name": "OR Switch",
+        "Price": {},
+        "Refund": {
+          "electric.orswitch": 1
+        }
+      },
+      "electrical.random.switch.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "RAND Switch",
+        "Price": {},
+        "Refund": {
+          "electric.random.switch": 1
+        }
+      },
+      "rfbroadcaster": {
+        "Remove Allowed": true,
+        "Display Name": "RF Broadcaster",
+        "Price": {},
+        "Refund": {
+          "electric.rf.broadcaster": 1
+        }
+      },
+      "rfreceiver": {
+        "Remove Allowed": true,
+        "Display Name": "RF Receiver",
+        "Price": {},
+        "Refund": {
+          "electric.rf.receiver": 1
+        }
+      },
+      "xorswitch.entity": {
+        "Remove Allowed": true,
+        "Display Name": "XOR Switch",
+        "Price": {},
+        "Refund": {
+          "electric.xorswitch": 1
+        }
+      },
+      "small_fuel_generator.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Small Generator",
+        "Price": {},
+        "Refund": {
+          "electric.fuelgenerator.small": 1
+        }
+      },
+      "generator.small": {
+        "Remove Allowed": true,
+        "Display Name": "Test Generator",
+        "Price": {},
+        "Refund": {
+          "electric.generator.small": 1
+        }
+      },
+      "solarpanel.large.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Large Solar Panel",
+        "Price": {},
+        "Refund": {
+          "electric.solarpanel.large": 1
+        }
+      },
+      "igniter.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Igniter",
+        "Price": {},
+        "Refund": {
+          "electric.igniter": 1
+        }
+      },
+      "electric.flasherlight.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Flasher Light",
+        "Price": {},
+        "Refund": {
+          "electric.flasherlight": 1
+        }
+      },
+      "simplelight": {
+        "Remove Allowed": true,
+        "Display Name": "Simple Light",
+        "Price": {},
+        "Refund": {
+          "electric.simplelight": 1
+        }
+      },
+      "electric.sirenlight.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Siren Light",
+        "Price": {},
+        "Refund": {
+          "electric.sirenlight": 1
+        }
+      },
+      "poweredwaterpurifier.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Powered Water Purifier",
+        "Price": {},
+        "Refund": {
+          "powered.water.purifier": 1
+        }
+      },
+      "switch": {
+        "Remove Allowed": true,
+        "Display Name": "Switch",
+        "Price": {},
+        "Refund": {
+          "electric.switch": 1
+        }
+      },
+      "splitter": {
+        "Remove Allowed": true,
+        "Display Name": "Splitter",
+        "Price": {},
+        "Refund": {
+          "electric.splitter": 1
+        }
+      },
+      "electric.sprinkler.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Sprinkler",
+        "Price": {},
+        "Refund": {
+          "electric.sprinkler": 1
+        }
+      },
+      "teslacoil.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Tesla Coil",
+        "Price": {},
+        "Refund": {
+          "electric.teslacoil": 1
+        }
+      },
+      "timer": {
+        "Remove Allowed": true,
+        "Display Name": "Timer",
+        "Price": {},
+        "Refund": {
+          "electric.timer": 1
+        }
+      },
+      "cabletunnel": {
+        "Remove Allowed": true,
+        "Display Name": "Cable Tunnel",
+        "Price": {},
+        "Refund": {
+          "electric.cabletunnel": 1
+        }
+      },
+      "water.pump.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Water Pump",
+        "Price": {},
+        "Refund": {
+          "waterpump": 1
+        }
+      },
+      "mining_quarry": {
+        "Remove Allowed": true,
+        "Display Name": "Mining Quarry",
+        "Price": {},
+        "Refund": {
+          "mining.quarry": 1
+        }
+      },
+      "reactivetarget_deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Reactive Target",
+        "Price": {},
+        "Refund": {
+          "target.reactive": 1
+        }
+      },
+      "repairbench_deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Repair Bench",
+        "Price": {},
+        "Refund": {
+          "box.repair.bench": 1
+        }
+      },
+      "researchtable_deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Research Table",
+        "Price": {},
+        "Refund": {
+          "research.table": 1
+        }
+      },
+      "rug.bear.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Rug Bear Skin",
+        "Price": {},
+        "Refund": {
+          "rug.bear": 1
+        }
+      },
+      "rug.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Rug",
+        "Price": {},
+        "Refund": {
+          "rug": 1
+        }
+      },
+      "searchlight.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Search Light",
+        "Price": {},
+        "Refund": {
+          "searchlight": 1
+        }
+      },
+      "secretlabchair.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Secret Lab Chair",
+        "Price": {},
+        "Refund": {
+          "secretlabchair": 1
+        }
+      },
+      "shelves": {
+        "Remove Allowed": true,
+        "Display Name": "Salvaged Shelves",
+        "Price": {},
+        "Refund": {
+          "shelves": 1
+        }
+      },
+      "sign.hanging.banner.large": {
+        "Remove Allowed": true,
+        "Display Name": "Large Banner Hanging",
+        "Price": {},
+        "Refund": {
+          "sign.hanging.banner.large": 1
+        }
+      },
+      "sign.hanging": {
+        "Remove Allowed": true,
+        "Display Name": "Two Sided Hanging Sign",
+        "Price": {},
+        "Refund": {
+          "sign.hanging": 1
+        }
+      },
+      "sign.hanging.ornate": {
+        "Remove Allowed": true,
+        "Display Name": "Two Sided Ornate Hanging Sign",
+        "Price": {},
+        "Refund": {
+          "sign.hanging.ornate": 1
+        }
+      },
+      "sign.pictureframe.landscape": {
+        "Remove Allowed": true,
+        "Display Name": "Landscape Picture Frame",
+        "Price": {},
+        "Refund": {
+          "sign.pictureframe.landscape": 1
+        }
+      },
+      "sign.pictureframe.portrait": {
+        "Remove Allowed": true,
+        "Display Name": "Portrait Picture Frame",
+        "Price": {},
+        "Refund": {
+          "sign.pictureframe.portrait": 1
+        }
+      },
+      "sign.pictureframe.tall": {
+        "Remove Allowed": true,
+        "Display Name": "Tall Picture Frame",
+        "Price": {},
+        "Refund": {
+          "sign.pictureframe.tall": 1
+        }
+      },
+      "sign.pictureframe.xl": {
+        "Remove Allowed": true,
+        "Display Name": "XL Picture Frame",
+        "Price": {},
+        "Refund": {
+          "sign.pictureframe.xl": 1
+        }
+      },
+      "sign.pictureframe.xxl": {
+        "Remove Allowed": true,
+        "Display Name": "XXL Picture Frame",
+        "Price": {},
+        "Refund": {
+          "sign.pictureframe.xxl": 1
+        }
+      },
+      "sign.pole.banner.large": {
+        "Remove Allowed": true,
+        "Display Name": "Large Banner on pole",
+        "Price": {},
+        "Refund": {
+          "sign.pole.banner.large": 1
+        }
+      },
+      "sign.post.double": {
+        "Remove Allowed": true,
+        "Display Name": "Double Sign Post",
+        "Price": {},
+        "Refund": {
+          "sign.post.double": 1
+        }
+      },
+      "sign.post.single": {
+        "Remove Allowed": true,
+        "Display Name": "Single Sign Post",
+        "Price": {},
+        "Refund": {
+          "sign.post.single": 1
+        }
+      },
+      "sign.post.town": {
+        "Remove Allowed": true,
+        "Display Name": "One Sided Town Sign Post",
+        "Price": {},
+        "Refund": {
+          "sign.post.town": 1
+        }
+      },
+      "sign.post.town.roof": {
+        "Remove Allowed": true,
+        "Display Name": "Two Sided Town Sign Post",
+        "Price": {},
+        "Refund": {
+          "sign.post.town.roof": 1
+        }
+      },
+      "sign.huge.wood": {
+        "Remove Allowed": true,
+        "Display Name": "Huge Wooden Sign",
+        "Price": {},
+        "Refund": {
+          "sign.wooden.huge": 1
+        }
+      },
+      "sign.large.wood": {
+        "Remove Allowed": true,
+        "Display Name": "Large Wooden Sign",
+        "Price": {},
+        "Refund": {
+          "sign.wooden.large": 1
+        }
+      },
+      "sign.medium.wood": {
+        "Remove Allowed": true,
+        "Display Name": "Medium Wooden Sign",
+        "Price": {},
+        "Refund": {
+          "sign.wooden.medium": 1
+        }
+      },
+      "sign.small.wood": {
+        "Remove Allowed": true,
+        "Display Name": "Small Wooden Sign",
+        "Price": {},
+        "Refund": {
+          "sign.wooden.small": 1
+        }
+      },
+      "guntrap.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Shotgun Trap",
+        "Price": {},
+        "Refund": {
+          "guntrap": 1
+        }
+      },
+      "sleepingbag_leather_deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Sleeping Bag",
+        "Price": {},
+        "Refund": {
+          "sleepingbag": 1
+        }
+      },
+      "small_stash_deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Small Stash",
+        "Price": {},
+        "Refund": {
+          "stash.small": 1
+        }
+      },
+      "sofa.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Sofa",
+        "Price": {},
+        "Refund": {
+          "sofa": 1
+        }
+      },
+      "spinner.wheel.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Spinning wheel",
+        "Price": {},
+        "Refund": {
+          "spinner.wheel": 1
+        }
+      },
+      "survivalfishtrap.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Survival Fish Trap",
+        "Price": {},
+        "Refund": {
+          "fishtrap.small": 1
+        }
+      },
+      "table.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Table",
+        "Price": {},
+        "Refund": {
+          "table": 1
+        }
+      },
+      "workbench1.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Work Bench Level 1",
+        "Price": {},
+        "Refund": {
+          "workbench1": 1
+        }
+      },
+      "workbench2.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Work Bench Level 2",
+        "Price": {},
+        "Refund": {
+          "workbench2": 1
+        }
+      },
+      "workbench3.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Work Bench Level 3",
+        "Price": {},
+        "Refund": {
+          "workbench3": 1
+        }
+      },
+      "cupboard.tool.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Tool Cupboard",
+        "Price": {},
+        "Refund": {
+          "cupboard.tool": 1
+        }
+      },
+      "tunalight.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Tuna Can Lamp",
+        "Price": {},
+        "Refund": {
+          "tunalight": 1
+        }
+      },
+      "vendingmachine.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Vending Machine",
+        "Price": {},
+        "Refund": {
+          "vending.machine": 1
+        }
+      },
+      "water_catcher_large": {
+        "Remove Allowed": true,
+        "Display Name": "Large Water Catcher",
+        "Price": {},
+        "Refund": {
+          "water.catcher.large": 1
+        }
+      },
+      "water_catcher_small": {
+        "Remove Allowed": true,
+        "Display Name": "Small Water Catcher",
+        "Price": {},
+        "Refund": {
+          "water.catcher.small": 1
+        }
+      },
+      "waterpurifier.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Water Purifier",
+        "Price": {},
+        "Refund": {
+          "water.purifier": 1
+        }
+      },
+      "electric.windmill.small": {
+        "Remove Allowed": true,
+        "Display Name": "Wind Turbine",
+        "Price": {},
+        "Refund": {
+          "generator.wind.scrap": 1
+        }
+      },
+      "woodbox_deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Wood Storage Box",
+        "Price": {},
+        "Refund": {
+          "box.wooden": 1
+        }
+      },
+      "drumkit.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Junkyard Drum Kit",
+        "Price": {},
+        "Refund": {
+          "drumkit": 1
+        }
+      },
+      "piano.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Wheelbarrow Piano",
+        "Price": {},
+        "Refund": {
+          "piano": 1
+        }
+      },
+      "xylophone.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Xylobone",
+        "Price": {},
+        "Refund": {
+          "xylophone": 1
+        }
+      },
+      "lock.key": {
+        "Remove Allowed": true,
+        "Display Name": "Key Lock",
+        "Price": {},
+        "Refund": {
+          "lock.key": 1
+        }
+      },
+      "lock.code": {
+        "Remove Allowed": true,
+        "Display Name": "Code Lock",
+        "Price": {},
+        "Refund": {
+          "lock.code": 1
+        }
+      },
+      "chineselantern.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Chinese Lantern",
+        "Price": {},
+        "Refund": {
+          "chineselantern": 1
+        }
+      },
+      "dragondoorknocker.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Dragon Door Knocker",
+        "Price": {},
+        "Refund": {
+          "dragondoorknocker": 1
+        }
+      },
+      "newyeargong.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "New Year Gong",
+        "Price": {},
+        "Refund": {
+          "newyeargong": 1
+        }
+      },
+      "chippyarcademachine": {
+        "Remove Allowed": true,
+        "Display Name": "Chippy Arcade Game",
+        "Price": {},
+        "Refund": {
+          "arcade.machine.chippy": 1
+        }
+      },
+      "doorcloser": {
+        "Remove Allowed": true,
+        "Display Name": "Door Closer",
+        "Price": {},
+        "Refund": {
+          "door.closer": 1
+        }
+      },
+      "easter_door_wreath_deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Easter Door Wreath",
+        "Price": {},
+        "Refund": {
+          "easterdoorwreath": 1
+        }
+      },
+      "rustigeegg_a.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Rustigé Egg - Red",
+        "Price": {},
+        "Refund": {
+          "rustige_egg_a": 1
+        }
+      },
+      "rustigeegg_b.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Rustigé Egg - Blue",
+        "Price": {},
+        "Refund": {
+          "rustige_egg_b": 1
+        }
+      },
+      "rustigeegg_c.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Rustigé Egg - Purple",
+        "Price": {},
+        "Refund": {
+          "rustige_egg_c": 1
+        }
+      },
+      "rustigeegg_d.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Rustigé Egg - Ivory",
+        "Price": {},
+        "Refund": {
+          "rustige_egg_d": 1
+        }
+      },
+      "largecandleset": {
+        "Remove Allowed": true,
+        "Display Name": "Large Candle Set",
+        "Price": {},
+        "Refund": {
+          "largecandles": 1
+        }
+      },
+      "smallcandleset": {
+        "Remove Allowed": true,
+        "Display Name": "Small Candle Set",
+        "Price": {},
+        "Refund": {
+          "smallcandles": 1
+        }
+      },
+      "coffinstorage": {
+        "Remove Allowed": true,
+        "Display Name": "Coffin",
+        "Price": {},
+        "Refund": {
+          "coffin.storage": 1
+        }
+      },
+      "cursedcauldron.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Cursed Cauldron",
+        "Price": {},
+        "Refund": {
+          "cursedcauldron": 1
+        }
+      },
+      "gravestone.stone.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Gravestone",
+        "Price": {},
+        "Refund": {
+          "gravestone": 1
+        }
+      },
+      "gravestone.wood.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Wooden Cross",
+        "Price": {},
+        "Refund": {
+          "woodcross": 1
+        }
+      },
+      "graveyardfence": {
+        "Remove Allowed": true,
+        "Display Name": "Graveyard Fence",
+        "Price": {},
+        "Refund": {
+          "wall.graveyard.fence": 1
+        }
+      },
+      "scarecrow.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Scarecrow",
+        "Price": {},
+        "Refund": {
+          "scarecrow": 1
+        }
+      },
+      "skullspikes.candles.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Skull Spikes",
+        "Price": {},
+        "Refund": {
+          "skullspikes.candles": 1
+        }
+      },
+      "skullspikes.pumpkin.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Skull Spikes",
+        "Price": {},
+        "Refund": {
+          "skullspikes.pumpkin": 1
+        }
+      },
+      "skullspikes.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Skull Spikes",
+        "Price": {},
+        "Refund": {
+          "skullspikes": 1
+        }
+      },
+      "skull_door_knocker.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Skull Door Knocker",
+        "Price": {},
+        "Refund": {
+          "skulldoorknocker": 1
+        }
+      },
+      "skull_fire_pit": {
+        "Remove Allowed": true,
+        "Display Name": "Skull Fire Pit",
+        "Price": {},
+        "Refund": {
+          "skull_fire_pit": 1
+        }
+      },
+      "spiderweba": {
+        "Remove Allowed": true,
+        "Display Name": "Spider Webs",
+        "Price": {},
+        "Refund": {
+          "spiderweb": 1
+        }
+      },
+      "spookyspeaker": {
+        "Remove Allowed": true,
+        "Display Name": "Spooky Speaker",
+        "Price": {},
+        "Refund": {
+          "spookyspeaker": 1
+        }
+      },
+      "skulltrophy.jar.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Skull Trophy",
+        "Price": {},
+        "Refund": {
+          "skull.trophy.jar": 1
+        }
+      },
+      "skulltrophy.jar2.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Skull Trophy",
+        "Price": {},
+        "Refund": {
+          "skull.trophy.jar2": 1
+        }
+      },
+      "skulltrophy.table.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Skull Trophy",
+        "Price": {},
+        "Refund": {
+          "skull.trophy.table": 1
+        }
+      },
+      "skulltrophy.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Skull Trophy",
+        "Price": {},
+        "Refund": {
+          "skull.trophy": 1
+        }
+      },
+      "abovegroundpool.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Above Ground Pool",
+        "Price": {},
+        "Refund": {
+          "abovegroundpool": 1
+        }
+      },
+      "beachchair.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Beach Chair",
+        "Price": {},
+        "Refund": {
+          "beachchair": 1
+        }
+      },
+      "beachparasol.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Beach Parasol",
+        "Price": {},
+        "Refund": {
+          "beachparasol": 1
+        }
+      },
+      "beachtable.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Beach Table",
+        "Price": {},
+        "Refund": {
+          "beachtable": 1
+        }
+      },
+      "beachtowel.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Beach Towel",
+        "Price": {},
+        "Refund": {
+          "beachtowel": 1
+        }
+      },
+      "boogieboard.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Boogie Board",
+        "Price": {},
+        "Refund": {
+          "boogieboard": 1
+        }
+      },
+      "innertube.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Inner Tube",
+        "Price": {},
+        "Refund": {
+          "innertube": 1
+        }
+      },
+      "innertube.horse.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Inner Tube",
+        "Price": {},
+        "Refund": {
+          "innertube.horse": 1
+        }
+      },
+      "innertube.unicorn.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Inner Tube",
+        "Price": {},
+        "Refund": {
+          "innertube.unicorn": 1
+        }
+      },
+      "paddlingpool.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Paddling Pool",
+        "Price": {},
+        "Refund": {
+          "paddlingpool": 1
+        }
+      },
+      "photoframe.landscape": {
+        "Remove Allowed": true,
+        "Display Name": "Landscape Photo Frame",
+        "Price": {},
+        "Refund": {
+          "photoframe.landscape": 1
+        }
+      },
+      "photoframe.large": {
+        "Remove Allowed": true,
+        "Display Name": "Large Photo Frame",
+        "Price": {},
+        "Refund": {
+          "photoframe.large": 1
+        }
+      },
+      "photoframe.portrait": {
+        "Remove Allowed": true,
+        "Display Name": "Portrait Photo Frame",
+        "Price": {},
+        "Refund": {
+          "photoframe.portrait": 1
+        }
+      },
+      "hobobarrel.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Hobo Barrel",
+        "Price": {},
+        "Refund": {
+          "hobobarrel": 1
+        }
+      },
+      "door.hinged.industrial.a": {
+        "Remove Allowed": true,
+        "Display Name": "Industrial Door",
+        "Price": {},
+        "Refund": {
+          "door.hinged.industrial.a": 1
+        }
+      },
+      "xmas.lightstring.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Christmas Lights",
+        "Price": {},
+        "Refund": {
+          "xmas.lightstring": 1
+        }
+      },
+      "doorgarland.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Festive Doorway Garland",
+        "Price": {},
+        "Refund": {
+          "xmas.door.garland": 1
+        }
+      },
+      "giantcandycane.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Giant Candy Decor",
+        "Price": {},
+        "Refund": {
+          "giantcandycanedecor": 1
+        }
+      },
+      "icewall": {
+        "Remove Allowed": true,
+        "Display Name": "Short Ice Wall",
+        "Price": {},
+        "Refund": {
+          "wall.ice.wall": 1
+        }
+      },
+      "wall.external.high.ice": {
+        "Remove Allowed": true,
+        "Display Name": "High Ice Wall",
+        "Price": {},
+        "Refund": {
+          "wall.external.high.ice": 1
+        }
+      },
+      "giantlollipops.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Giant Lollipop Decor",
+        "Price": {},
+        "Refund": {
+          "giantlollipops": 1
+        }
+      },
+      "sign.neon.125x125": {
+        "Remove Allowed": true,
+        "Display Name": "Small Neon Sign",
+        "Price": {},
+        "Refund": {
+          "sign.neon.125x125": 1
+        }
+      },
+      "sign.neon.125x215.animated": {
+        "Remove Allowed": true,
+        "Display Name": "Medium Animated Neon Sign",
+        "Price": {},
+        "Refund": {
+          "sign.neon.125x215.animated": 1
+        }
+      },
+      "sign.neon.125x215": {
+        "Remove Allowed": true,
+        "Display Name": "Medium Neon Sign",
+        "Price": {},
+        "Refund": {
+          "sign.neon.125x215": 1
+        }
+      },
+      "sign.neon.xl.animated": {
+        "Remove Allowed": true,
+        "Display Name": "Large Animated Neon Sign",
+        "Price": {},
+        "Refund": {
+          "sign.neon.xl.animated": 1
+        }
+      },
+      "sign.neon.xl": {
+        "Remove Allowed": true,
+        "Display Name": "Large Neon Sign",
+        "Price": {},
+        "Refund": {
+          "sign.neon.xl": 1
+        }
+      },
+      "pookie_deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Pookie Bear",
+        "Price": {},
+        "Refund": {
+          "pookie.bear": 1
+        }
+      },
+      "sled.deployed.xmas": {
+        "Remove Allowed": true,
+        "Display Name": "Sled",
+        "Price": {},
+        "Refund": {
+          "sled.xmas": 1
+        }
+      },
+      "sled.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Sled",
+        "Price": {},
+        "Refund": {
+          "sled": 1
+        }
+      },
+      "snowmachine": {
+        "Remove Allowed": true,
+        "Display Name": "Snow Machine",
+        "Price": {},
+        "Refund": {
+          "snowmachine": 1
+        }
+      },
+      "snowman.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Snowman",
+        "Price": {},
+        "Refund": {
+          "snowman": 1
+        }
+      },
+      "stocking_large_deployed": {
+        "Remove Allowed": true,
+        "Display Name": "SUPER Stocking",
+        "Price": {},
+        "Refund": {
+          "stocking.large": 1
+        }
+      },
+      "stocking_small_deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Small Stocking",
+        "Price": {},
+        "Refund": {
+          "stocking.small": 1
+        }
+      },
+      "windowgarland.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Festive Window Garland",
+        "Price": {},
+        "Refund": {
+          "xmas.window.garland": 1
+        }
+      },
+      "christmas_door_wreath_deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Christmas Door Wreath",
+        "Price": {},
+        "Refund": {
+          "xmasdoorwreath": 1
+        }
+      },
+      "xmas_tree.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Christmas Tree",
+        "Price": {},
+        "Refund": {
+          "xmas.tree": 1
+        }
+      },
+      "autoturret_deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Auto Turret",
+        "Price": {},
+        "Refund": {
+          "autoturret": 1
+        }
+      },
+      "flameturret.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Flame Turret",
+        "Price": {},
+        "Refund": {
+          "flameturret": 1
+        }
+      },
+      "sam_site_turret_deployed": {
+        "Remove Allowed": true,
+        "Display Name": "SAM Site",
+        "Price": {},
+        "Refund": {
+          "samsite": 1
+        }
+      },
+      "black_berry.entity": {
+        "Remove Allowed": false,
+        "Display Name": "Black Berry Clone",
+        "Price": {},
+        "Refund": {
+          "clone.black.berry": 1
+        }
+      },
+      "blue_berry.entity": {
+        "Remove Allowed": false,
+        "Display Name": "Blue Berry Clone",
+        "Price": {},
+        "Refund": {
+          "clone.blue.berry": 1
+        }
+      },
+      "green_berry.entity": {
+        "Remove Allowed": false,
+        "Display Name": "Green Berry Clone",
+        "Price": {},
+        "Refund": {
+          "clone.green.berry": 1
+        }
+      },
+      "red_berry.entity": {
+        "Remove Allowed": false,
+        "Display Name": "Red Berry Clone",
+        "Price": {},
+        "Refund": {
+          "clone.red.berry": 1
+        }
+      },
+      "white_berry.entity": {
+        "Remove Allowed": false,
+        "Display Name": "White Berry Clone",
+        "Price": {},
+        "Refund": {
+          "clone.white.berry": 1
+        }
+      },
+      "yellow_berry.entity": {
+        "Remove Allowed": false,
+        "Display Name": "Yellow Berry Clone",
+        "Price": {},
+        "Refund": {
+          "clone.yellow.berry": 1
+        }
+      },
+      "corn.entity": {
+        "Remove Allowed": false,
+        "Display Name": "Corn Clone",
+        "Price": {},
+        "Refund": {
+          "clone.corn": 1
+        }
+      },
+      "hemp.entity": {
+        "Remove Allowed": false,
+        "Display Name": "Hemp Clone",
+        "Price": {},
+        "Refund": {
+          "clone.hemp": 1
+        }
+      },
+      "potato.entity": {
+        "Remove Allowed": false,
+        "Display Name": "Potato Clone",
+        "Price": {},
+        "Refund": {
+          "clone.potato": 1
+        }
+      },
+      "pumpkin.entity": {
+        "Remove Allowed": false,
+        "Display Name": "Pumpkin Plant Clone",
+        "Price": {},
+        "Refund": {
+          "clone.pumpkin": 1
+        }
+      },
+      "cctv_deployed": {
+        "Remove Allowed": true,
+        "Display Name": "CCTV Camera",
+        "Price": {},
+        "Refund": {
+          "cctv.camera": 1
+        }
+      },
+      "telephone.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Telephone",
+        "Price": {},
+        "Refund": {
+          "telephone": 1
+        }
+      }
+    }
+  },
+  "Version": {
+    "Major": 4,
+    "Minor": 3,
+    "Patch": 23
+  }
+}

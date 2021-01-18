@@ -1,0 +1,16 @@
+{
+  "NoClip on Vanish (runs noclip command)": true,
+  "Hide an invisible players body under the terrain after disconnect": false,
+  "If a player was vanished on disconnection keep them vanished on reconnect": true,
+  "Turn off fly hack detection for players in vanish": true,
+  "Enable vanishing and reappearing sound effects": true,
+  "Make sound effects public": false,
+  "Enable chat notifications": true,
+  "Sound effect to use when vanishing": "assets/prefabs/npc/patrol helicopter/effects/rocket_fire.prefab",
+  "Sound effect to use when reappearing": "assets/prefabs/npc/patrol helicopter/effects/rocket_fire.prefab",
+  "Enable GUI": true,
+  "Icon URL (.png or .jpg)": "http://i.imgur.com/Gr5G3YI.png",
+  "Image Color": "1 1 1 0.3",
+  "Image AnchorMin": "0.175 0.017",
+  "Image AnchorMax": "0.22 0.08"
+}

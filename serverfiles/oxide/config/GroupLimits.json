@@ -1,0 +1,35 @@
+{
+  "Limits": [
+    {
+      "Type Name": "Any",
+      "Max Authorized": 2,
+      "Shortnames": [
+        "global"
+      ],
+      "Disable For Decaying Structures": true,
+      "Notify Player": true,
+      "Notify Owner": true,
+      "Enforce": false,
+      "Deauthorize": true,
+      "Deauthorize All": false,
+      "Discord": {
+        "Webhook": "",
+        "Inline": true,
+        "Title": "Group Limit: Exceeded or deauthorized",
+        "Color": 0,
+        "Player Title": "Player",
+        "Player": "{name}/{id}",
+        "Authed Title": "Authorized Players",
+        "Authed": "{list}",
+        "Authed Entry": "{name}/{id}",
+        "Authed Separator": "\n",
+        "Entity Title": "Entity",
+        "Entity": "{shortname}/{id} ({type})",
+        "Position Title": "Position",
+        "Position": "teleportpos {position}"
+      },
+      "Log To File": false
+    }
+  ],
+  "Log Format": "[{time}] {id} ({name}) authorized on {shortname}/{entid} ({type}) at ({position})"
+}

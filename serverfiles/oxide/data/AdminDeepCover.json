@@ -1,0 +1,19 @@
+{
+  "PlayerData": {
+    "76561198212172615": {
+      "IsEnabled": true,
+      "IsRemoved": true,
+      "WasAdmin": true,
+      "Groups": [
+        "default",
+        "admin"
+      ],
+      "RestoreName": "Bento.BN",
+      "RestoreUserId": 76561198212172615,
+      "Profile": 1,
+      "Name": "Mario6579",
+      "UserId": 76561197960279927,
+      "Better Chat Group": "default"
+    }
+  }
+}

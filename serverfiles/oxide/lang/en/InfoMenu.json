@@ -1,0 +1,8 @@
+{
+  "Invalid Syntax": "Invalid command syntax. Usage:\nopen <Tab> - Open a tab\nclose - Close UI",
+  "Only Players": "This command is available only for players.",
+  "No Tab": "Sorry, we couldn't find this tab (or you don't have enough permissions).",
+  "No Recache Permission": "You don't have enough permissions (infomenu.recacheui).",
+  "Recached": "All UI was successfully recached.",
+  "Initial Caching": "Please, wait. UI is caching. It can take up to 10 seconds and it will be opened automatically."
+}

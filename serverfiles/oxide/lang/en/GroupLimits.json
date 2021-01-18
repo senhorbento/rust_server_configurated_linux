@@ -1,0 +1,6 @@
+{
+  "Notify: Player": "You are trying to exceed the group limit on our server.",
+  "Notify: Owner": "{name} tried to exceed the group limit on your entity at {position}. (Type: {type})",
+  "Notify: Deauthorize Player": "One person was deauthorized, try to authorize again if you were not.",
+  "Notify: Deauthorize Owner": "{name} tried to authorize on your entity. One person was deauthorized on your entity at {position}. (Type: {type})"
+}
