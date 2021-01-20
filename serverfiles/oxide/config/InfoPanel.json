@@ -1,0 +1,526 @@
+{
+  "CompassDirections": {
+    "e": "East",
+    "n": "North",
+    "ne": "Northeast",
+    "nw": "Northwest",
+    "s": "South",
+    "se": "Southeast",
+    "sw": "Southwest",
+    "w": "West"
+  },
+  "CoordType": 0,
+  "Docks": {
+    "BottomLeftDock": {
+      "AnchorX": "Left",
+      "AnchorY": "Bottom",
+      "Available": false,
+      "BackgroundColor": "0 0 0 0.4",
+      "Height": 0.03,
+      "Margin": "0.005 0.165 0.005 0.005",
+      "Width": 0.18
+    },
+    "BottomRightDock": {
+      "AnchorX": "Right",
+      "AnchorY": "Bottom",
+      "Available": false,
+      "BackgroundColor": "0 0 0 0.4",
+      "Height": 0.03,
+      "Margin": "0.005 0.005 0.005 0.165",
+      "Width": 0.19
+    },
+    "TopLeftDock": {
+      "AnchorX": "Left",
+      "AnchorY": "Top",
+      "Available": true,
+      "BackgroundColor": "0 0 0 0.4",
+      "Height": 0.03,
+      "Margin": "0.005 0.005 0.005 0.005",
+      "Width": 0.175
+    },
+    "TopRightDock": {
+      "AnchorX": "Right",
+      "AnchorY": "Top",
+      "Available": true,
+      "BackgroundColor": "0 0 0 0.4",
+      "Height": 0.03,
+      "Margin": "0.005 0.005 0.005 0.005",
+      "Width": 0.29
+    }
+  },
+  "Messages": [
+    "Bem vindo ao Boa noite!",
+    "Wipe FULL toda QUINTA 18:00 BRT", 
+    "Nosso discord: discord.gg/KAUSPwT",
+    "Comandos do servidor: /info"
+  ],
+  "Panels": {
+    "AirdropEvent": {
+      "AnchorX": "Left",
+      "AnchorY": "Bottom",
+      "Autoload": true,
+      "Available": true,
+      "BackgroundColor": "0 0 0 0.4",
+      "Dock": "TopLeftDock",
+      "FadeOut": 0.0,
+      "Height": 0.95,
+      "Image": {
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.4",
+        "Height": 0.8,
+        "Margin": "0 0.1 0.1 0.1",
+        "Order": 1,
+        "Url": "http://i.imgur.com/dble6vf.png",
+        "Width": 0.8
+      },
+      "Margin": "0 0 0 0.01",
+      "Order": 4,
+      "PanelSettings": {
+        "ActiveColor": "0 1 0 1",
+        "InactiveColor": "1 1 1 0.1"
+      },
+      "Width": 0.1
+    },
+    "Balance": {
+      "AnchorX": "Left",
+      "AnchorY": "Bottom",
+      "Autoload": true,
+      "Available": false,
+      "BackgroundColor": "0 0 0 0.4",
+      "Dock": "BottomLeftDock",
+      "FadeOut": 0.0,
+      "Height": 0.95,
+      "Image": {
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.4",
+        "Height": 0.8,
+        "Margin": "0 0.01 0.1 0.01",
+        "Order": 1,
+        "Url": "http://i.imgur.com/HhL5TvU.png",
+        "Width": 0.2
+      },
+      "Margin": "0 0 0 0.01",
+      "Order": 7,
+      "PanelSettings": {
+        "RefreshRate(s)": "5"
+      },
+      "Text": {
+        "Align": "MiddleCenter",
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.4",
+        "Content": "No Content",
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "FontColor": "1 1 1 1",
+        "FontSize": 12,
+        "Height": 1.0,
+        "Margin": "0 0.02 0 0",
+        "Order": 2,
+        "Width": 0.848
+      },
+      "Width": 0.4
+    },
+    "CargoShipEvent": {
+      "AnchorX": "Left",
+      "AnchorY": "Bottom",
+      "Autoload": true,
+      "Available": true,
+      "BackgroundColor": "0 0 0 0.4",
+      "Dock": "TopLeftDock",
+      "FadeOut": 0.0,
+      "Height": 0.95,
+      "Image": {
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.4",
+        "Height": 0.8,
+        "Margin": "0 0.15 0.1 0.1",
+        "Order": 1,
+        "Url": "https://i.imgur.com/WQiNxyM.png",
+        "Width": 0.75
+      },
+      "Margin": "0 0 0 0.01",
+      "Order": 5,
+      "PanelSettings": {
+        "ActiveColor": "0 1 0 1",
+        "InactiveColor": "1 1 1 0.1"
+      },
+      "Width": 0.1
+    },
+    "ChinookEvent": {
+      "AnchorX": "Left",
+      "AnchorY": "Bottom",
+      "Autoload": true,
+      "Available": true,
+      "BackgroundColor": "0 0 0 0.4",
+      "Dock": "TopLeftDock",
+      "FadeOut": 0.0,
+      "Height": 0.95,
+      "Image": {
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.4",
+        "Height": 0.8,
+        "Margin": "0 0.15 0.1 0.1",
+        "Order": 1,
+        "Url": "https://i.imgur.com/49d8ZcK.png",
+        "Width": 0.75
+      },
+      "Margin": "0 0 0 0.01",
+      "Order": 5,
+      "PanelSettings": {
+        "ActiveColor": "0.7 0.2 0.2 1",
+        "InactiveColor": "1 1 1 0.1"
+      },
+      "Width": 0.1
+    },
+    "Clock": {
+      "AnchorX": "Left",
+      "AnchorY": "Top",
+      "Autoload": true,
+      "Available": true,
+      "BackgroundColor": "0 0 0 0.4",
+      "Dock": "TopLeftDock",
+      "FadeOut": 0.0,
+      "Height": 0.95,
+      "Margin": "0 0 0 0.01",
+      "Order": 1,
+      "PanelSettings": {
+        "ClockUpdateFrequency (seconds)": 4,
+        "TimeFormat": "HH:mm"
+      },
+      "Text": {
+        "Align": "MiddleCenter",
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.4",
+        "Content": "No Content",
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "FontColor": "1 1 1 1",
+        "FontSize": 14,
+        "Height": 0.95,
+        "Margin": "0 0.01 0 0.01",
+        "Order": 0,
+        "Width": 1.0
+      },
+      "Width": 0.2
+    },
+    "Compass": {
+      "AnchorX": "Left",
+      "AnchorY": "Bottom",
+      "Autoload": true,
+      "Available": false,
+      "BackgroundColor": "0 0 0 0.4",
+      "Dock": "BottomRightDock",
+      "FadeOut": 0.0,
+      "Height": 0.95,
+      "Image": {
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.4",
+        "Height": 0.8,
+        "Margin": "0 0.01 0.1 0.03",
+        "Order": 1,
+        "Url": "http://i.imgur.com/dG5nOOJ.png",
+        "Width": 0.188
+      },
+      "Margin": "0 0 0 0.01",
+      "Order": 8,
+      "PanelSettings": {
+        "RefreshRate(s)": "1",
+        "TextOrAngle": "text"
+      },
+      "Text": {
+        "Align": "MiddleCenter",
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.4",
+        "Content": "No Content",
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "FontColor": "1 1 1 1",
+        "FontSize": 12,
+        "Height": 1.0,
+        "Margin": "0 0.02 0 0",
+        "Order": 2,
+        "Width": 0.76
+      },
+      "Width": 0.5
+    },
+    "Coordinates": {
+      "AnchorX": "Left",
+      "AnchorY": "Bottom",
+      "Autoload": true,
+      "Available": false,
+      "BackgroundColor": "0 0 0 0.4",
+      "Dock": "TopLeftDock",
+      "FadeOut": 0.0,
+      "Height": 0.95,
+      "Image": {
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.4",
+        "Height": 0.8,
+        "Margin": "0 0.01 0.1 0.01",
+        "Order": 1,
+        "Url": "http://i.imgur.com/Kr1pQ5b.png",
+        "Width": 0.13
+      },
+      "Margin": "0 0 0 0.01",
+      "Order": 7,
+      "PanelSettings": {
+        "RefreshRate(s)": "3"
+      },
+      "Text": {
+        "Align": "MiddleCenter",
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.4",
+        "Content": "No Content",
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "FontColor": "1 1 1 1",
+        "FontSize": 12,
+        "Height": 1.0,
+        "Margin": "0 0.02 0 0",
+        "Order": 2,
+        "Width": 0.848
+      },
+      "Width": 0.8
+    },
+    "HelicopterEvent": {
+      "AnchorX": "Left",
+      "AnchorY": "Bottom",
+      "Autoload": true,
+      "Available": true,
+      "BackgroundColor": "0 0 0 0.4",
+      "Dock": "TopLeftDock",
+      "FadeOut": 0.0,
+      "Height": 0.95,
+      "Image": {
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.4",
+        "Height": 0.8,
+        "Margin": "0 0.15 0.1 0.1",
+        "Order": 1,
+        "Url": "http://i.imgur.com/hTTyTTx.png",
+        "Width": 0.75
+      },
+      "Margin": "0 0 0 0.01",
+      "Order": 5,
+      "PanelSettings": {
+        "ActiveColor": "0.7 0.2 0.2 1",
+        "InactiveColor": "1 1 1 0.1"
+      },
+      "Width": 0.1
+    },
+    "MessageBox": {
+      "AnchorX": "Right",
+      "AnchorY": "Bottom",
+      "Autoload": true,
+      "Available": true,
+      "BackgroundColor": "0 0 0 0.4",
+      "Dock": "TopRightDock",
+      "FadeOut": 0.0,
+      "Height": 0.95,
+      "Margin": "0 0 0 0.005",
+      "Order": 7,
+      "PanelSettings": {
+        "MessageUpdateFrequency (seconds)": 20,
+        "MsgOrder": "normal"
+      },
+      "Text": {
+        "Align": "MiddleCenter",
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.4",
+        "Content": "No Content",
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "FontColor": "1 1 1 1",
+        "FontSize": 14,
+        "Height": 0.95,
+        "Margin": "0 0 0 0.005",
+        "Order": 0,
+        "Width": 1.0
+      },
+      "Width": 1.0
+    },
+    "OPlayers": {
+      "AnchorX": "Left",
+      "AnchorY": "Bottom",
+      "Autoload": true,
+      "Available": true,
+      "BackgroundColor": "0 0 0 0.4",
+      "Dock": "TopLeftDock",
+      "FadeOut": 0.0,
+      "Height": 0.95,
+      "Image": {
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.4",
+        "Height": 0.8,
+        "Margin": "0 0.05 0.1 0.05",
+        "Order": 1,
+        "Url": "http://i.imgur.com/n9EYIWi.png",
+        "Width": 0.35
+      },
+      "Margin": "0 0 0 0.01",
+      "Order": 2,
+      "Text": {
+        "Align": "MiddleCenter",
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.4",
+        "Content": "No Content",
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "FontColor": "1 1 1 1",
+        "FontSize": 14,
+        "Height": 1.0,
+        "Margin": "0 0 0 0.005",
+        "Order": 2,
+        "Width": 0.68
+      },
+      "Width": 0.31
+    },
+    "Points": {
+      "AnchorX": "Left",
+      "AnchorY": "Bottom",
+      "Autoload": true,
+      "Available": true,
+      "BackgroundColor": "0 0 0 0.4",
+      "Dock": "BottomLeftDock",
+      "FadeOut": 0.0,
+      "Height": 0.95,
+      "Image": {
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.4",
+        "Height": 0.8,
+        "Margin": "0 0.01 0.1 0.01",
+        "Order": 1,
+        "Url": "http://i.imgur.com/dwzul4T.png",
+        "Width": 0.2
+      },
+      "Margin": "0 0 0 0.01",
+      "Order": 8,
+      "PanelSettings": {
+        "RefreshRate(s)": "5"
+      },
+      "Text": {
+        "Align": "MiddleCenter",
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.4",
+        "Content": "No Content",
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "FontColor": "1 1 1 1",
+        "FontSize": 12,
+        "Height": 1.0,
+        "Margin": "0 0.02 0 0",
+        "Order": 2,
+        "Width": 0.848
+      },
+      "Width": 0.4
+    },
+    "Radiation": {
+      "AnchorX": "Left",
+      "AnchorY": "Bottom",
+      "Autoload": true,
+      "Available": false,
+      "BackgroundColor": "0 0 0 0.4",
+      "Dock": "TopLeftDock",
+      "FadeOut": 0.0,
+      "Height": 0.95,
+      "Image": {
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.4",
+        "Height": 0.8,
+        "Margin": "0 0.15 0.1 0.1",
+        "Order": 1,
+        "Url": "http://i.imgur.com/owVdFsK.png",
+        "Width": 0.75
+      },
+      "Margin": "0 0 0 0.01",
+      "Order": 6,
+      "PanelSettings": {
+        "ActiveColor": "1 1 0 1",
+        "InactiveColor": "1 1 1 0.1",
+        "RefreshRate(s)": "3"
+      },
+      "Width": 0.1
+    },
+    "Sleepers": {
+      "AnchorX": "Left",
+      "AnchorY": "Bottom",
+      "Autoload": true,
+      "Available": true,
+      "BackgroundColor": "0 0 0 0.4",
+      "Dock": "TopLeftDock",
+      "FadeOut": 0.0,
+      "Height": 0.95,
+      "Image": {
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.4",
+        "Height": 0.8,
+        "Margin": "0 0.05 0.1 0.05",
+        "Order": 1,
+        "Url": "http://i.imgur.com/XIIZkqD.png",
+        "Width": 0.4
+      },
+      "Margin": "0 0 0 0.01",
+      "Order": 3,
+      "Text": {
+        "Align": "MiddleCenter",
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.4",
+        "Content": "No Content",
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "FontColor": "1 1 1 1",
+        "FontSize": 14,
+        "Height": 1.0,
+        "Margin": "0 0 0 0.005",
+        "Order": 2,
+        "Width": 0.63
+      },
+      "Width": 0.225
+    }
+  },
+  "ThirdPartyPanels": {},
+  "TimeFormats": [
+    "H:mm",
+    "HH:mm",
+    "h:mm",
+    "h:mm tt"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "No Permission": "<size=12>You don't have permission to use this command</size>",
+  "Deep Cover Enabled": "<size=12>Admin deep cover has been <color=#00fa9a>Enabled</color></size>",
+  "Deep Cover Disabled": "<size=12>Admin deep cover has been <color=#00fa9a>Disabled</color></size>",
+  "Deep Cover Changed": "<size=12>Fake identity has changed to <color=#00fa9a>{0}</color></size>",
+  "Requested Fake Identify Not Found": "<size=12>Requested fake identity is not found</size>",
+  "No Fake Identities Available": "<size=12>No fake identities available</size></size>",
+  "Fake Identify Not Found": "<size=12>Fake identity is not found</size>",
+  "Data Corrupted Up": "<size=12>Data is corrupt</size>"
+}

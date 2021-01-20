@@ -1,0 +1,11 @@
+{
+  "CurrentTeam": "History {0}  | Previously created team with members: {1}",
+  "OnTeamCreated": "Created {0}  | Player: '{1}' ({2}) created new team",
+  "OnTeamDisbanded": "Disband {0}  | Team leader: '{1}' ({2})",
+  "OnTeamLeave": "Leave {0}    | Player: '{1}' ({2}, is leader: {3})",
+  "OnTeamInvite": "Invite {0}   | Player '{1}' ({2}) sent invite to '{3}' {4}",
+  "OnTeamRejectInvite": "Reject {0}   | Player: '{1}' ({2}) rejected invite",
+  "OnTeamPromote": "Promote {0}  | Player: '{1}' ({2}) now is new leader",
+  "OnTeamKick": "Kick {0}     | Player: '{1}' ({2}) was kicked",
+  "OnTeamAcceptInvite": "Accept {0}   | Player: '{1}' ({2}) accepted invite"
+}

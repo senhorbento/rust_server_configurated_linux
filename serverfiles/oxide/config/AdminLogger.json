@@ -1,0 +1,110 @@
+{
+  "Log to console (true/false)": true,
+  "Update frequency (s)": 5.0,
+  "Log filename": "adminlog",
+  "Enable Discord Messages (true/false)": true,
+  "Discord Messages webhook": "",
+  "Exclude List": [
+    "76561197960279927",
+    "76561197960287930"
+  ],
+  "Default admin commands": {
+    "Admin connections logging (true/false)": true,
+    "Noclip logging (true/false)": true,
+    "GodMode logging (true/false)": true,
+    "Spectate logging (true/false)": true,
+    "Kill player logging (true/false)": true,
+    "Admin events logging (true/false)": true,
+    "Admin event commands": {
+      "[Attack Heli] heli.call": true,
+      "[Attack Heli] heli.calltome": true,
+      "[Attack Heli] drop": true,
+      "[Airdrop] supply.call": true,
+      "[Airdrop] supply.drop": true
+    },
+    "Kick logging (true/false)": true,
+    "Kick commands": {
+      "kick": true,
+      "kickall": true
+    },
+    "Ban logging (true/false)": true,
+    "Ban commands": {
+      "ban": true,
+      "unban": true
+    },
+    "Mute logging (true/false)": true,
+    "Mute commands": {
+      "mute": true,
+      "unmute": true
+    },
+    "Entity logging (true/false)": true,
+    "Entity commands": {
+      "ent kill": true,
+      "ent who": true,
+      "ent lock": true,
+      "ent unlock": true,
+      "ent auth": true
+    },
+    "Teleport logging (true/false)": true,
+    "Teleport commands": {
+      "teleport": true,
+      "teleportpos": true,
+      "teleport2me": true
+    },
+    "Give items logging (true/false)": true,
+    "Give commands": {
+      "give": true,
+      "giveid": true,
+      "givearm": true,
+      "giveto": true,
+      "giveall": true
+    },
+    "Spawn logging (true/false)": true,
+    "Spawn commands": {
+      "spawn": true,
+      "spawnat": true,
+      "spawnhere": true,
+      "spawnitem": true
+    }
+  },
+  "Admin plugins": {
+    "Vanish logging (true/false)": true,
+    "Admin Radar logging (true/false)": true,
+    "Night Vision logging (true/false)": true,
+    "Convert Status logging (true/false)": true,
+    "Inventory Viewer logging (true/false)": true,
+    "Backpacks logging (true/false)": true,
+    "Freeze logging (true/false)": true,
+    "Freeze commands": {
+      "freeze": true,
+      "unfreeze": true,
+      "freezeall": true,
+      "unfreezeall": true
+    },
+    "Player Administration logging (true/false)": true,
+    "Player Administration commands": {
+      "OpenPadminCmd": true,
+      "ClosePadminCmd": true,
+      "BanUserCmd": true,
+      "UnbanUserCmd": true,
+      "KickUserCmd": true,
+      "MuteUserCmd": true,
+      "UnmuteUserCmd": true,
+      "FreezeCmd": true,
+      "UnreezeCmd": true,
+      "BackpackViewCmd": true,
+      "InventoryViewCmd": true,
+      "ClearUserInventoryCmd": true,
+      "ResetUserBPCmd": true,
+      "ResetUserMetabolismCmd": true,
+      "RecoverUserMetabolismCmd": true,
+      "TeleportToUserCmd": true,
+      "TeleportUserCmd": true,
+      "SpectateUserCmd": true,
+      "PermsCmd": true,
+      "HurtUserCmd": true,
+      "KillUserCmd": true,
+      "HealUserCmd": true
+    }
+  }
+}
