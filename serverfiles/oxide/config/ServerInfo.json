@@ -1,0 +1,112 @@
+{
+  "settings": {
+    "Tabs": [
+      {
+        "ButtonText": "Boas vindas",
+        "HeaderText": "Bem vindo ao servidor Boa Noite!",
+        "Pages": [
+          {
+            "TextLines": [
+              "",
+              "<color=#28d258>Rates:</color>",
+              " - Sulfur, sucata, metal de alta 1.5x",
+              " - Metal e pedra 2x",
+              " - Restante 3x",
+              "",
+              "<color=#e51d1d>Regras:</color>",
+              " - Maximo 2 jogadores por grupo",
+              " - Expressamente proibido andar junto sem formar grupo e aliancas",
+              " - So e permitido cama de no maximo 2 pessoas diferentes dentro de uma base",
+              "",
+              "<color=#ffd800>Informacoes adicionais:</color>",
+              " - Wipe FULL toda QUINTA as 17:00 BRT",
+              " - Contas com vac ban, ban em outros servidores e em modo familia nao entraram.",
+              " - Nosso discord: discord.gg/KAUSPwT"
+            ],
+            "ImageSettings": []
+          }
+        ],
+        "TabButtonAnchor": 4,
+        "TabButtonFontSize": 16,
+        "HeaderAnchor": 0,
+        "HeaderFontSize": 32,
+        "TextFontSize": 16,
+        "TextAnchor": 3,
+        "OxideGroup": ""
+      },
+      {
+        "ButtonText": "Comandos",
+        "HeaderText": "Comandos do servidor",
+        "Pages": [
+          {
+            "TextLines": [
+              "",
+              "<color=#00fffc>Codigo</color> - Efeito",
+              "",
+              "<color=#00fffc>/backpack</color> - Abre uma mochila com mais 12 espacos de inventario;",
+              "",
+              "<color=#00fffc>/vlock</color> - Coloca uma code lock no veiculo (indepentende de qual veiculo seja)",
+              "<color=#FFD800>Requisito:</color> Ter 1 code lock ou 100 fragmentos de metal no inventario;",
+              "",
+              "<color=#00fffc>/vkeylock</color> - Coloca uma key lock no veiculo (indepentende de qual veiculo seja)",
+              "<color=#FFD800>Requisito:</color> Ter 1 key lock ou 75 de madeira no inventario;",
+              "",
+              "",
+              "Se voce quiser pode usar o comando (bind b backpack.open) na aba f1 (sem os parenteses),",
+              "Deste modo toda vez que apertar a tecla B a backpack abre automaticamente,",
+              "nao sendo necessario digitar o /backpack,",
+              "<color=#e51d1d>Alerta</color>: Se voce nao tem certeza do que esta fazendo, nao o execute, nao me responsabilizo por nada"
+            ],
+            "ImageSettings": []
+          }
+        ],
+        "TabButtonAnchor": 4,
+        "TabButtonFontSize": 16,
+        "HeaderAnchor": 0,
+        "HeaderFontSize": 32,
+        "TextFontSize": 16,
+        "TextAnchor": 3,
+        "OxideGroup": ""
+      }
+    ],
+    "ShowInfoOnPlayerInit": true,
+    "ShowInfoOnlyOncePerRuntime": true,
+    "TabToOpenByDefault": 0,
+    "Position": {
+      "MinX": 0.15,
+      "MaxX": 0.9,
+      "MinY": 0.2,
+      "MaxY": 0.9
+    },
+    "BackgroundImage": {
+      "Enabled": true,
+      "Position": {
+        "MinX": 0.0,
+        "MaxX": 1.0,
+        "MinY": 0.0,
+        "MaxY": 1.0
+      },
+      "Url": "https://i.ibb.co/g4Q8FtH/Server-Logo.png",
+      "TransparencyInPercent": 20
+    },
+    "ActiveButtonColor": "#81a881",
+    "InactiveButtonColor": "#000000",
+    "CloseButtonColor": "#ff0000",
+    "NextPageButtonColor": "#128128128255",
+    "PrevPageButtonColor": "#128128128255",
+    "BackgroundColor": "#000000",
+    "HelpButton": {
+      "IsEnabled": false,
+      "Text": "Help",
+      "Position": {
+        "MinX": 0.0,
+        "MaxX": 0.05,
+        "MinY": 0.1,
+        "MaxY": 0.14
+      },
+      "Color": "#128128128255",
+      "FontSize": 18
+    },
+    "UpgradedConfig": false
+  }
+}

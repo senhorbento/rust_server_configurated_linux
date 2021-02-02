@@ -1,0 +1,14 @@
+{
+  "AllowIfDifferentOwner": false,
+  "AllowIfNoOwner": true,
+  "CraftCooldownSeconds": 10.0,
+  "DefaultSharingSettings": {
+    "Clan": false,
+    "ClanOrAlly": false,
+    "Friends": false,
+    "Team": true
+  },
+  "ModularCarSettings": {
+    "AllowEditingWhileLockedOut": true
+  }
+}

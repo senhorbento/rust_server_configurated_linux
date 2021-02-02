@@ -1,0 +1,16 @@
+{
+  "Blacklist": [
+    "explosive.timed",
+    "rocket.launcher",
+    "ammo.rocket.basic",
+    "ammo.rocket.fire",
+    "ammo.rocket.hv",
+    "ammo.rifle.explosive"
+  ],
+  "Default blueprints": [
+    "pistol.revolver",
+    "pistol.semiauto",
+    "pickaxe",
+    "hatchet"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ChatCommand": "b",
+  "CommandToRun (Leave blank for no command)": "box",
+  "LogAdminInfo": true,
+  "LogToConsole": true,
+  "PerformanceMode": false,
+  "ShowBoxContents": true,
+  "ShowCode": true,
+  "ShowSphere": false,
+  "ToolDistance": 200.0,
+  "ToolUsed": "hammer"
+}

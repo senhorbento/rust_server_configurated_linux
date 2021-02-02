@@ -1,0 +1,66 @@
+{
+  "Clear Share Data On Map Wipe": false,
+  "Team Share Settings": {
+    "Enabled": true,
+    "Share Cupboard": true,
+    "Share Turret": true,
+    "Key Lock Settings": {
+      "Enabled": true,
+      "Share Door": true,
+      "Share Box": true,
+      "Share Other Locked Entities": true
+    },
+    "Code Lock Settings": {
+      "Enabled": true,
+      "Share Door": true,
+      "Share Box": true,
+      "Share Other Locked Entities": true
+    }
+  },
+  "Friends Share Settings": {
+    "Enabled": true,
+    "Share Cupboard": true,
+    "Share Turret": true,
+    "Key Lock Settings": {
+      "Enabled": true,
+      "Share Door": true,
+      "Share Box": true,
+      "Share Other Locked Entities": true
+    },
+    "Code Lock Settings": {
+      "Enabled": true,
+      "Share Door": true,
+      "Share Box": true,
+      "Share Other Locked Entities": true
+    }
+  },
+  "Clan Share Settings": {
+    "Enabled": true,
+    "Share Cupboard": true,
+    "Share Turret": true,
+    "Key Lock Settings": {
+      "Enabled": true,
+      "Share Door": true,
+      "Share Box": true,
+      "Share Other Locked Entities": true
+    },
+    "Code Lock Settings": {
+      "Enabled": true,
+      "Share Door": true,
+      "Share Box": true,
+      "Share Other Locked Entities": true
+    }
+  },
+  "Chat Settings": {
+    "Send Authorization Success Message": true,
+    "Chat Command": "autoauth",
+    "Chat UI Command": "autoauthui",
+    "Chat Prefix": "<color=#00FFFF>[AutoAuth]</color>: ",
+    "Chat SteamID Icon": 0
+  },
+  "Version": {
+    "Major": 1,
+    "Minor": 2,
+    "Patch": 4
+  }
+}

@@ -1,0 +1,3064 @@
+{
+  "players": {
+    "76561198824628033": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "rifle.semiauto",
+        "ammo.rocket.basic",
+        "pistol.python",
+        "wall.window.bars.toptier",
+        "smg.mp5",
+        "door.hinged.toptier",
+        "door.double.hinged.toptier",
+        "weapon.mod.lasersight",
+        "ammo.rifle.hv",
+        "ammo.rifle.incendiary"
+      ]
+    },
+    "76561198220633193": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198060415367": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198176897365": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198068508237": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198053565878": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198805091836": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "mace",
+        "pistol.revolver",
+        "ammo.pistol",
+        "pickaxe",
+        "hatchet"
+      ]
+    },
+    "76561198392910348": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "largemedkit",
+        "hazmatsuit",
+        "syringe.medical",
+        "shoes.boots",
+        "coffeecan.helmet",
+        "roadsign.jacket",
+        "hoodie",
+        "roadsign.gloves"
+      ]
+    },
+    "76561198212172615": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "wall.frame.garagedoor",
+        "hammer.salvaged",
+        "pickaxe",
+        "hatchet",
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "shutter.metal.embrasure.a",
+        "shutter.metal.embrasure.b",
+        "wall.window.glass.reinforced",
+        "ammo.shotgun"
+      ]
+    },
+    "76561198118517217": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "wall.frame.garagedoor",
+        "hammer.salvaged",
+        "pickaxe",
+        "hatchet",
+        "ammo.pistol",
+        "syringe.medical",
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "shutter.metal.embrasure.a",
+        "shutter.metal.embrasure.b",
+        "wall.window.glass.reinforced",
+        "ammo.shotgun",
+        "shotgun.pump",
+        "trap.landmine",
+        "pistol.semiauto",
+        "smg.2",
+        "grenade.f1",
+        "pistol.python",
+        "flamethrower",
+        "smg.thompson",
+        "wall.window.bars.toptier",
+        "smg.mp5",
+        "pistol.revolver",
+        "shirt.tanktop",
+        "hat.beenie",
+        "mask.balaclava",
+        "tshirt.long",
+        "pants",
+        "wall.frame.cell.gate",
+        "wall.frame.cell",
+        "floor.ladder.hatch",
+        "floor.triangle.ladder.hatch",
+        "electric.battery.rechargable.medium",
+        "locker",
+        "furnace.large",
+        "water.catcher.large",
+        "small.oil.refinery",
+        "wall.external.high.stone",
+        "gates.external.high.stone"
+      ]
+    },
+    "76561197997006989": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198249051880": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "ammo.pistol",
+        "syringe.medical"
+      ]
+    },
+    "76561198989057617": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "syringe.medical",
+        "ammo.pistol"
+      ]
+    },
+    "76561198332570013": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "syringe.medical",
+        "ammo.pistol"
+      ]
+    },
+    "76561198258972507": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "icepick.salvaged",
+        "axe.salvaged",
+        "jacket",
+        "hoodie",
+        "arrow.fire",
+        "pants",
+        "syringe.medical",
+        "hammer.salvaged",
+        "pickaxe",
+        "salvaged.sword",
+        "longsword",
+        "ammo.shotgun",
+        "shotgun.pump",
+        "trap.landmine",
+        "pistol.semiauto",
+        "grenade.f1",
+        "pistol.python",
+        "hazmatsuit",
+        "shoes.boots",
+        "roadsign.gloves",
+        "flamethrower",
+        "weapon.mod.muzzlebrake",
+        "smg.thompson",
+        "grenade.smoke",
+        "ammo.rifle",
+        "rifle.semiauto",
+        "weapon.mod.silencer",
+        "burlap.gloves",
+        "wall.frame.cell.gate",
+        "wall.frame.cell",
+        "floor.ladder.hatch",
+        "floor.triangle.ladder.hatch",
+        "electric.battery.rechargable.medium",
+        "electric.fuelgenerator.small",
+        "rf_pager",
+        "modularcarlift",
+        "shutter.metal.embrasure.a",
+        "shutter.metal.embrasure.b",
+        "wall.window.glass.reinforced",
+        "wall.frame.garagedoor"
+      ]
+    },
+    "76561198837342370": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198059225007": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "explosive.satchel",
+        "grenade.beancan",
+        "wall.frame.cell.gate",
+        "wall.frame.cell",
+        "floor.ladder.hatch",
+        "floor.triangle.ladder.hatch"
+      ]
+    },
+    "76561198214327919": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198123142472": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198119418689": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199093654251": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198311498731": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198123112231": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198072891289": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198097982492": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198055184987": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "shotgun.double",
+        "rifle.semiauto",
+        "ammo.rifle.explosive",
+        "ammo.rifle",
+        "explosive.satchel",
+        "weapon.mod.holosight",
+        "arrow.fire",
+        "smg.2",
+        "grenade.beancan",
+        "ammo.pistol",
+        "pistol.revolver",
+        "roadsign.kilt"
+      ]
+    },
+    "76561198015380228": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198110574466": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198444639572": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198063127355": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "pistol.revolver",
+        "smg.thompson",
+        "smg.2",
+        "ammo.pistol",
+        "roadsign.jacket",
+        "electric.xorswitch",
+        "shutter.metal.embrasure.a"
+      ]
+    },
+    "76561199070318810": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199014206774": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198274229727": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198098612284": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198143052137": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198981198727": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199037466853": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198060742304": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198112815216": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198816025345": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198451571187": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198252649012": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199128917339": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "shotgun.double",
+        "rifle.semiauto",
+        "ammo.rifle.explosive",
+        "ammo.rifle",
+        "explosive.satchel",
+        "weapon.mod.holosight",
+        "arrow.fire",
+        "smg.2",
+        "grenade.beancan",
+        "ammo.pistol",
+        "pistol.revolver",
+        "roadsign.kilt"
+      ]
+    },
+    "76561198288624330": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198086845551": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198386743660": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198438755238": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198884107980": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198278705574": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198059159748": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198160433293": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198087208727": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198158997714": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198097854692": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198308215997": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198354726582": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198059014416": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198195839054": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198345435095": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199029809894": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199030286556": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198118633109": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199092146211": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199086322897": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198058116139": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198358093344": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198932281423": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199024931423": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198284773212": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198152111821": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198048085326": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198331617460": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198122485515": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198245503976": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198430699798": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "hammer.salvaged",
+        "pickaxe",
+        "hatchet"
+      ]
+    },
+    "76561198084143959": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "explosive.satchel",
+        "grenade.beancan",
+        "wall.frame.cell.gate",
+        "wall.frame.cell",
+        "floor.ladder.hatch",
+        "floor.triangle.ladder.hatch"
+      ]
+    },
+    "76561198262673493": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198135753286": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198273373407": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198239922792": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198126337977": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "hammer.salvaged",
+        "hatchet",
+        "pickaxe",
+        "spikes.floor",
+        "barricade.wood",
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "shutter.metal.embrasure.a",
+        "shutter.metal.embrasure.b",
+        "wall.window.glass.reinforced",
+        "wall.frame.cell.gate",
+        "barricade.concrete",
+        "wall.frame.cell",
+        "floor.ladder.hatch",
+        "floor.triangle.ladder.hatch",
+        "electric.battery.rechargable.medium",
+        "locker",
+        "wall.window.bars.toptier",
+        "furnace.large",
+        "water.catcher.large",
+        "smg.mp5",
+        "small.oil.refinery",
+        "trap.bear"
+      ]
+    },
+    "76561198448651129": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "pistol.revolver",
+        "ammo.pistol",
+        "hazmatsuit",
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "syringe.medical",
+        "explosive.satchel",
+        "wall.frame.cell.gate",
+        "smg.thompson",
+        "weapon.mod.holosight",
+        "weapon.mod.flashlight",
+        "wall.frame.cell",
+        "floor.ladder.hatch",
+        "floor.triangle.ladder.hatch",
+        "electric.battery.rechargable.medium",
+        "locker",
+        "furnace.large",
+        "water.catcher.large",
+        "small.oil.refinery",
+        "floor.triangle.grill",
+        "floor.grill",
+        "wall.frame.garagedoor",
+        "grenade.beancan",
+        "wall.external.high.stone",
+        "rf_pager",
+        "rf.detonator",
+        "electric.rf.broadcaster",
+        "electric.rf.receiver",
+        "computerstation",
+        "autoturret",
+        "electric.solarpanel.large",
+        "gates.external.high.stone",
+        "smg.mp5",
+        "pistol.python",
+        "rifle.ak",
+        "ammo.rifle",
+        "ladder.wooden.wall",
+        "electric.splitter",
+        "electric.fuelgenerator.small",
+        "electric.random.switch",
+        "electric.hbhfsensor",
+        "searchlight",
+        "electric.battery.rechargable.large",
+        "generator.wind.scrap"
+      ]
+    },
+    "76561198273903645": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "pistol.revolver",
+        "ammo.pistol",
+        "hazmatsuit",
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "syringe.medical",
+        "explosive.satchel",
+        "wall.frame.cell.gate",
+        "smg.thompson",
+        "weapon.mod.holosight",
+        "weapon.mod.flashlight",
+        "wall.frame.cell",
+        "floor.ladder.hatch",
+        "floor.triangle.ladder.hatch",
+        "electric.battery.rechargable.medium",
+        "locker",
+        "furnace.large",
+        "water.catcher.large",
+        "small.oil.refinery",
+        "floor.triangle.grill",
+        "floor.grill",
+        "wall.frame.garagedoor",
+        "grenade.beancan",
+        "wall.external.high.stone",
+        "rf_pager",
+        "rf.detonator",
+        "electric.rf.broadcaster",
+        "electric.rf.receiver",
+        "computerstation",
+        "autoturret",
+        "electric.solarpanel.large",
+        "gates.external.high.stone",
+        "smg.mp5",
+        "pistol.python",
+        "rifle.ak",
+        "ammo.rifle",
+        "ladder.wooden.wall",
+        "electric.splitter",
+        "electric.fuelgenerator.small",
+        "electric.random.switch",
+        "electric.hbhfsensor",
+        "searchlight",
+        "electric.battery.rechargable.large",
+        "generator.wind.scrap"
+      ]
+    },
+    "76561198130839962": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198082879485": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198210661829": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "smg.2",
+        "ammo.pistol",
+        "wall.external.high",
+        "gates.external.high.wood"
+      ]
+    },
+    "76561198190440405": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "hammer.salvaged",
+        "pickaxe",
+        "hatchet"
+      ]
+    },
+    "76561198083362266": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199068066369": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198090469703": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "hammer.salvaged",
+        "hatchet",
+        "pickaxe",
+        "spikes.floor",
+        "barricade.wood",
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "shutter.metal.embrasure.a",
+        "shutter.metal.embrasure.b",
+        "wall.window.glass.reinforced",
+        "wall.frame.cell.gate",
+        "barricade.concrete",
+        "wall.frame.cell",
+        "floor.ladder.hatch",
+        "floor.triangle.ladder.hatch",
+        "electric.battery.rechargable.medium",
+        "locker",
+        "wall.window.bars.toptier",
+        "furnace.large",
+        "water.catcher.large",
+        "smg.mp5",
+        "small.oil.refinery",
+        "trap.bear"
+      ]
+    },
+    "76561198146617394": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "smg.2",
+        "ammo.pistol",
+        "wall.external.high",
+        "gates.external.high.wood"
+      ]
+    },
+    "76561198076303658": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198367033799": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198093450129": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "ammo.pistol",
+        "syringe.medical"
+      ]
+    },
+    "76561197992569635": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561197987432757": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198019495061": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198382943517": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198421963403": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199134256470": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198155591082": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198923816237": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198158282991": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198127371219": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198307659640": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198433988472": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198162195842": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199062923703": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198098323911": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198155393666": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198309125064": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198365692846": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198079255877": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198284135126": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198410170034": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198886622866": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198086262974": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198189549298": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198333845943": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198177244633": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198329254189": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199087297554": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198075056775": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198311368532": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198137444550": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198829422096": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198306766691": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198138502318": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198084613241": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198065910096": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198267893278": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198250052394": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198833681847": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198339015135": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561197991501670": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198799784622": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198303784280": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198275987169": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198302935527": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198817662077": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198310940033": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198132095008": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198373232478": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561197986675173": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198044613635": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198391573363": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198251983966": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198851567161": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198253521997": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198038436695": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198999412689": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198423611229": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198348313883": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198355673831": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199129167165": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198017656185": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198177099827": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198297940990": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198874303582": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198822528088": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198049394844": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198384661521": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "pistol.revolver",
+        "smg.thompson",
+        "smg.2",
+        "ammo.pistol",
+        "roadsign.jacket",
+        "electric.xorswitch",
+        "shutter.metal.embrasure.a"
+      ]
+    },
+    "76561198194021897": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198050370887": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198013836244": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198075461891": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198850394865": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198320049165": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199003698702": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198097579838": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "shutter.metal.embrasure.a",
+        "shutter.metal.embrasure.b",
+        "wall.window.glass.reinforced",
+        "wall.frame.garagedoor",
+        "ammo.shotgun",
+        "hammer.salvaged",
+        "hatchet",
+        "pickaxe",
+        "ammo.pistol",
+        "syringe.medical",
+        "shotgun.pump",
+        "trap.landmine",
+        "pistol.semiauto",
+        "smg.2",
+        "grenade.f1",
+        "pistol.python",
+        "flamethrower",
+        "smg.thompson",
+        "wall.window.bars.toptier",
+        "smg.mp5",
+        "pistol.revolver",
+        "shirt.tanktop",
+        "hat.beenie",
+        "mask.balaclava",
+        "tshirt.long",
+        "pants",
+        "wall.frame.cell.gate",
+        "wall.frame.cell",
+        "floor.ladder.hatch",
+        "floor.triangle.ladder.hatch",
+        "electric.battery.rechargable.medium",
+        "locker",
+        "furnace.large",
+        "water.catcher.large",
+        "small.oil.refinery",
+        "wall.external.high.stone",
+        "gates.external.high.stone"
+      ]
+    },
+    "76561198014914639": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198086638222": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "ammo.pistol"
+      ]
+    },
+    "76561198063234351": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "ammo.pistol"
+      ]
+    },
+    "76561199022383606": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198110697258": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198021041650": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "pistol.revolver",
+        "ammo.pistol"
+      ]
+    },
+    "76561197982311776": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198318355243": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "pistol.revolver",
+        "ammo.pistol"
+      ]
+    },
+    "76561198235830064": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198272993075": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198835624100": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198217872396": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198279414543": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198247381904": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198338215408": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198136559282": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198115845607": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199127483193": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198875902051": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198089058532": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198081489462": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198988842128": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198008020104": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198172684987": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198089012785": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198101924880": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198198796003": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198350046487": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199020894066": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198968051096": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198843612594": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198872180767": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198036965927": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198119434167": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198131076608": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198405018486": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198076869398": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198087714833": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198150774412": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198447594355": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198148323811": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198020892206": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199013322316": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561197999815397": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198125375682": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198252904724": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199130603135": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198071275651": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198123543005": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198341670796": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198191415125": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198060400110": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198179024862": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198119262360": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "ammo.pistol",
+        "ammo.rifle"
+      ]
+    },
+    "76561198259797690": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199069469268": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198119006053": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198227713460": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198147320096": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198002480546": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198839728910": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "ammo.pistol",
+        "pistol.revolver",
+        "barricade.wood.cover",
+        "electric.battery.rechargable.medium",
+        "dropbox",
+        "mailbox",
+        "locker",
+        "flameturret",
+        "shotgun.double",
+        "electric.laserdetector",
+        "electric.teslacoil",
+        "icepick.salvaged",
+        "grenade.beancan",
+        "electric.rf.receiver",
+        "explosive.satchel",
+        "syringe.medical",
+        "weapon.mod.silencer",
+        "smg.thompson",
+        "weapon.mod.flashlight",
+        "guntrap",
+        "rifle.semiauto",
+        "ammo.rifle"
+      ]
+    },
+    "76561198363839256": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198283181198": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198303601154": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199105295055": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199096136177": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198400789760": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "ammo.pistol",
+        "smg.thompson",
+        "syringe.medical",
+        "hatchet",
+        "pickaxe",
+        "guntrap"
+      ]
+    },
+    "76561198280028683": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198219619563": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198893870324": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198223124888": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198357478266": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198845758235": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198928822139": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198187850355": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198097922340": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "hammer.salvaged",
+        "pickaxe",
+        "salvaged.sword",
+        "mace",
+        "salvaged.cleaver",
+        "shotgun.waterpipe",
+        "flare",
+        "ammo.pistol",
+        "pistol.revolver",
+        "hazmatsuit",
+        "syringe.medical",
+        "largemedkit",
+        "bucket.water",
+        "fridge",
+        "mailbox",
+        "chair",
+        "table",
+        "paddle",
+        "mixingtable",
+        "ammo.rifle",
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "ammo.shotgun",
+        "shotgun.pump",
+        "trap.landmine",
+        "pistol.semiauto",
+        "grenade.f1",
+        "pistol.python",
+        "flamethrower",
+        "shutter.metal.embrasure.a",
+        "shutter.metal.embrasure.b",
+        "wall.window.glass.reinforced",
+        "wall.frame.garagedoor",
+        "wall.frame.cell.gate",
+        "weapon.mod.muzzleboost",
+        "smg.2",
+        "grenade.smoke"
+      ]
+    },
+    "76561198821845479": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198337313500": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198372751245": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198315859015": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198248557410": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "spikes.floor",
+        "barricade.wood",
+        "barricade.woodwire",
+        "ladder.wooden.wall",
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "shutter.metal.embrasure.a",
+        "shutter.metal.embrasure.b",
+        "wall.window.glass.reinforced",
+        "wall.frame.garagedoor",
+        "salvaged.sword",
+        "mace",
+        "salvaged.cleaver",
+        "shotgun.waterpipe",
+        "flare",
+        "ammo.shotgun",
+        "shotgun.pump",
+        "trap.landmine",
+        "pistol.semiauto",
+        "grenade.f1",
+        "pistol.python",
+        "flamethrower",
+        "weapon.mod.muzzlebrake",
+        "weapon.mod.muzzleboost",
+        "smg.2",
+        "grenade.smoke",
+        "weapon.mod.flashlight",
+        "hazmatsuit",
+        "hoodie",
+        "rifle.semiauto",
+        "weapon.mod.holosight",
+        "rocket.launcher",
+        "ammo.rocket.fire",
+        "ammo.rocket.hv",
+        "shoes.boots",
+        "wall.window.bars.toptier",
+        "smg.mp5",
+        "weapon.mod.lasersight",
+        "ammo.rifle.hv",
+        "ammo.rifle.explosive",
+        "metalspring",
+        "ammo.rocket.basic",
+        "coffeecan.helmet",
+        "roadsign.gloves",
+        "roadsign.jacket",
+        "roadsign.kilt"
+      ]
+    },
+    "76561199110527466": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199104905682": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198817367211": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "icepick.salvaged",
+        "axe.salvaged",
+        "jacket",
+        "hoodie",
+        "arrow.fire",
+        "pants",
+        "syringe.medical",
+        "hammer.salvaged",
+        "pickaxe",
+        "salvaged.sword",
+        "longsword",
+        "ammo.shotgun",
+        "shotgun.pump",
+        "trap.landmine",
+        "pistol.semiauto",
+        "grenade.f1",
+        "pistol.python",
+        "hazmatsuit",
+        "shoes.boots",
+        "roadsign.gloves",
+        "flamethrower",
+        "weapon.mod.muzzlebrake",
+        "smg.thompson",
+        "grenade.smoke",
+        "ammo.rifle",
+        "rifle.semiauto",
+        "weapon.mod.silencer",
+        "burlap.gloves",
+        "wall.frame.cell.gate",
+        "wall.frame.cell",
+        "floor.ladder.hatch",
+        "floor.triangle.ladder.hatch",
+        "electric.battery.rechargable.medium",
+        "electric.fuelgenerator.small",
+        "rf_pager",
+        "modularcarlift",
+        "shutter.metal.embrasure.a",
+        "shutter.metal.embrasure.b",
+        "wall.window.glass.reinforced",
+        "wall.frame.garagedoor"
+      ]
+    },
+    "76561198127381772": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198874448318": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199074386236": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "hammer.salvaged",
+        "pickaxe",
+        "salvaged.sword",
+        "mace",
+        "salvaged.cleaver",
+        "shotgun.waterpipe",
+        "flare",
+        "ammo.pistol",
+        "pistol.revolver",
+        "hazmatsuit",
+        "syringe.medical",
+        "largemedkit",
+        "bucket.water",
+        "fridge",
+        "mailbox",
+        "chair",
+        "table",
+        "paddle",
+        "mixingtable",
+        "ammo.rifle",
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "ammo.shotgun",
+        "shotgun.pump",
+        "trap.landmine",
+        "pistol.semiauto",
+        "grenade.f1",
+        "pistol.python",
+        "flamethrower",
+        "shutter.metal.embrasure.a",
+        "shutter.metal.embrasure.b",
+        "wall.window.glass.reinforced",
+        "wall.frame.garagedoor",
+        "wall.frame.cell.gate",
+        "weapon.mod.muzzleboost",
+        "smg.2",
+        "grenade.smoke"
+      ]
+    },
+    "76561197991147770": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198929475152": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198936806985": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198102527421": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "grenade.beancan",
+        "roadsign.jacket",
+        "hazmatsuit",
+        "syringe.medical",
+        "smg.thompson",
+        "ammo.pistol",
+        "shotgun.pump",
+        "sparkplug1",
+        "ammo.shotgun.fire",
+        "wall.frame.garagedoor",
+        "weapon.mod.silencer",
+        "hoodie",
+        "shelves",
+        "hammer.salvaged",
+        "hatchet",
+        "spikes.floor",
+        "barricade.wood",
+        "barricade.woodwire",
+        "ladder.wooden.wall",
+        "floor.ladder.hatch",
+        "floor.triangle.ladder.hatch",
+        "explosives"
+      ]
+    },
+    "76561198162022904": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198263317478": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198139647928": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "ammo.pistol",
+        "ammo.rifle"
+      ]
+    },
+    "76561198281496753": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198864453840": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198156505173": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198095729661": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198833010517": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199070482271": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198991693932": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "syringe.medical",
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "ammo.shotgun",
+        "shotgun.pump",
+        "ammo.pistol",
+        "trap.landmine",
+        "pistol.semiauto",
+        "ammo.rifle",
+        "rifle.semiauto",
+        "wall.frame.cell.gate",
+        "wall.frame.cell",
+        "floor.ladder.hatch",
+        "floor.triangle.ladder.hatch",
+        "electric.battery.rechargable.medium",
+        "grenade.f1",
+        "pistol.python",
+        "locker",
+        "furnace.large",
+        "water.catcher.large",
+        "small.oil.refinery",
+        "wall.external.high.stone",
+        "chainsaw",
+        "flamethrower",
+        "weapon.mod.muzzleboost",
+        "smg.2",
+        "grenade.smoke",
+        "weapon.mod.holosight",
+        "weapon.mod.silencer",
+        "explosive.timed",
+        "hazmatsuit"
+      ]
+    },
+    "76561198997177437": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "hammer.salvaged",
+        "pickaxe",
+        "hatchet",
+        "spikes.floor",
+        "barricade.wood",
+        "barricade.woodwire",
+        "ladder.wooden.wall",
+        "rifle.semiauto",
+        "ammo.rifle",
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "shutter.metal.embrasure.a",
+        "shutter.metal.embrasure.b",
+        "wall.window.glass.reinforced",
+        "wall.frame.garagedoor",
+        "ammo.shotgun",
+        "shotgun.pump",
+        "trap.landmine",
+        "pistol.semiauto"
+      ]
+    },
+    "76561198828608448": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198876846769": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198196394670": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "syringe.medical",
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "ammo.shotgun",
+        "shotgun.pump",
+        "ammo.pistol",
+        "trap.landmine",
+        "pistol.semiauto",
+        "ammo.rifle",
+        "rifle.semiauto",
+        "wall.frame.cell.gate",
+        "wall.frame.cell",
+        "floor.ladder.hatch",
+        "floor.triangle.ladder.hatch",
+        "electric.battery.rechargable.medium",
+        "grenade.f1",
+        "pistol.python",
+        "locker",
+        "furnace.large",
+        "water.catcher.large",
+        "small.oil.refinery",
+        "wall.external.high.stone",
+        "chainsaw",
+        "flamethrower",
+        "weapon.mod.muzzleboost",
+        "smg.2",
+        "grenade.smoke",
+        "weapon.mod.holosight",
+        "weapon.mod.silencer",
+        "explosive.timed",
+        "hazmatsuit"
+      ]
+    },
+    "76561198411173815": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198247138622": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198245154668": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198030491150": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198141330975": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198266717648": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "grenade.beancan",
+        "roadsign.jacket",
+        "hazmatsuit",
+        "syringe.medical",
+        "smg.thompson",
+        "ammo.pistol",
+        "shotgun.pump",
+        "sparkplug1",
+        "ammo.shotgun.fire",
+        "wall.frame.garagedoor",
+        "weapon.mod.silencer",
+        "hoodie",
+        "shelves",
+        "hammer.salvaged",
+        "hatchet",
+        "spikes.floor",
+        "barricade.wood",
+        "barricade.woodwire",
+        "ladder.wooden.wall",
+        "floor.ladder.hatch",
+        "floor.triangle.ladder.hatch",
+        "explosives",
+        "explosive.timed"
+      ]
+    },
+    "76561198095912684": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198091463154": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198128088517": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198868909944": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198137853518": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198440576587": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199069025851": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199122738699": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198279701111": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198077513134": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "ammo.pistol",
+        "pistol.revolver",
+        "hoodie",
+        "arrow.fire",
+        "barricade.woodwire"
+      ]
+    },
+    "76561198411126182": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "hammer.salvaged",
+        "pickaxe",
+        "hatchet",
+        "spikes.floor",
+        "barricade.wood",
+        "barricade.woodwire",
+        "ladder.wooden.wall",
+        "rifle.semiauto",
+        "ammo.rifle",
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "shutter.metal.embrasure.a",
+        "shutter.metal.embrasure.b",
+        "wall.window.glass.reinforced",
+        "wall.frame.garagedoor",
+        "ammo.shotgun",
+        "shotgun.pump",
+        "trap.landmine",
+        "pistol.semiauto"
+      ]
+    },
+    "76561198345585719": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198063578717": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198870327179": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "explosive.satchel",
+        "syringe.medical",
+        "weapon.mod.silencer",
+        "smg.thompson",
+        "weapon.mod.flashlight",
+        "guntrap",
+        "rifle.semiauto",
+        "ammo.rifle"
+      ]
+    },
+    "76561198985851835": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198389623233": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198204051081": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198349991588": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198271106231": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198209095301": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198138184208": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198081197858": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198795897024": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198315481616": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198325787266": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198380862447": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198035870384": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "hammer.salvaged",
+        "hatchet",
+        "spikes.floor",
+        "barricade.wood",
+        "barricade.woodwire",
+        "ladder.wooden.wall",
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "wall.frame.cell.gate",
+        "wall.frame.cell",
+        "floor.ladder.hatch",
+        "floor.triangle.ladder.hatch",
+        "pickaxe"
+      ]
+    },
+    "76561199129029254": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "hammer.salvaged",
+        "hatchet",
+        "spikes.floor",
+        "barricade.wood",
+        "barricade.woodwire",
+        "ladder.wooden.wall",
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "wall.frame.cell.gate",
+        "wall.frame.cell",
+        "floor.ladder.hatch",
+        "floor.triangle.ladder.hatch",
+        "pickaxe"
+      ]
+    },
+    "76561198063299174": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198201109914": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199023535991": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198820974788": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198143327676": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561197971356157": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198206609767": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "explosive.satchel",
+        "grenade.beancan",
+        "ammo.pistol",
+        "pistol.semiauto",
+        "weapon.mod.silencer",
+        "pickaxe",
+        "hatchet"
+      ]
+    },
+    "76561198870888255": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198273105813": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198244493412": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198115460995": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198262317574": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "explosive.satchel",
+        "grenade.beancan",
+        "ammo.pistol",
+        "pistol.semiauto",
+        "weapon.mod.silencer",
+        "pickaxe",
+        "hatchet"
+      ]
+    },
+    "76561198036377081": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198324507083": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198151961263": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "hammer.salvaged",
+        "pickaxe",
+        "hatchet",
+        "salvaged.sword",
+        "pistol.revolver",
+        "ammo.pistol",
+        "hazmatsuit",
+        "syringe.medical",
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "ammo.shotgun",
+        "shotgun.pump",
+        "arrow.fire",
+        "trap.landmine",
+        "pistol.semiauto",
+        "grenade.f1",
+        "pistol.python",
+        "weapon.mod.flashlight",
+        "shoes.boots",
+        "hoodie",
+        "roadsign.gloves",
+        "coffeecan.helmet",
+        "roadsign.jacket",
+        "roadsign.kilt",
+        "flamethrower",
+        "weapon.mod.muzzlebrake",
+        "smg.thompson",
+        "mace",
+        "salvaged.cleaver",
+        "shotgun.waterpipe",
+        "shotgun.double",
+        "guntrap",
+        "weapon.mod.silencer",
+        "grenade.beancan",
+        "flare",
+        "explosive.satchel",
+        "shutter.metal.embrasure.a",
+        "shutter.metal.embrasure.b",
+        "wall.window.glass.reinforced",
+        "wall.frame.garagedoor",
+        "grenade.smoke",
+        "ammo.rifle",
+        "rifle.semiauto"
+      ]
+    },
+    "76561198172136199": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199073843571": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198144845890": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "hammer.salvaged",
+        "pickaxe",
+        "hatchet",
+        "salvaged.sword",
+        "pistol.revolver",
+        "ammo.pistol",
+        "hazmatsuit",
+        "syringe.medical",
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "ammo.shotgun",
+        "shotgun.pump",
+        "arrow.fire",
+        "trap.landmine",
+        "pistol.semiauto",
+        "grenade.f1",
+        "pistol.python",
+        "weapon.mod.flashlight",
+        "shoes.boots",
+        "hoodie",
+        "roadsign.gloves",
+        "coffeecan.helmet",
+        "roadsign.jacket",
+        "roadsign.kilt",
+        "flamethrower",
+        "weapon.mod.muzzlebrake",
+        "smg.thompson",
+        "mace",
+        "salvaged.cleaver",
+        "shotgun.waterpipe",
+        "shotgun.double",
+        "guntrap",
+        "weapon.mod.silencer",
+        "grenade.beancan",
+        "flare",
+        "explosive.satchel",
+        "shutter.metal.embrasure.a",
+        "shutter.metal.embrasure.b",
+        "wall.window.glass.reinforced",
+        "wall.frame.garagedoor",
+        "grenade.smoke",
+        "ammo.rifle",
+        "rifle.semiauto"
+      ]
+    },
+    "76561198114097728": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198369799898": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198211266156": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "ammo.pistol",
+        "ammo.shotgun",
+        "hazmatsuit",
+        "weapon.mod.flashlight",
+        "shelves",
+        "ammo.rifle",
+        "guntrap"
+      ]
+    },
+    "76561198308316639": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198063500643": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198098246257": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "hammer.salvaged",
+        "pickaxe",
+        "hatchet",
+        "salvaged.sword",
+        "mace",
+        "salvaged.cleaver",
+        "shotgun.waterpipe",
+        "flare",
+        "ammo.pistol",
+        "pistol.revolver",
+        "smg.thompson",
+        "wall.window.bars.metal",
+        "wall.frame.garagedoor",
+        "wall.window.glass.reinforced",
+        "ceilinglight",
+        "electric.switch",
+        "electric.splitter",
+        "electric.solarpanel.large",
+        "electric.battery.rechargable.large",
+        "grenade.beancan",
+        "explosive.satchel",
+        "bucket.water",
+        "water.catcher.small",
+        "water.barrel",
+        "planter.large",
+        "ladder.wooden.wall",
+        "syringe.medical",
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "shutter.metal.embrasure.a",
+        "shutter.metal.embrasure.b",
+        "smg.mp5",
+        "ammo.rifle.explosive",
+        "hoodie",
+        "ammo.rifle",
+        "shoes.boots",
+        "pants",
+        "weapon.mod.small.scope",
+        "wall.window.bars.toptier",
+        "weapon.mod.lasersight",
+        "ammo.rifle.hv",
+        "explosives"
+      ]
+    },
+    "76561198076879538": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "hammer.salvaged",
+        "pickaxe",
+        "hatchet"
+      ]
+    },
+    "76561198203356952": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199067046143": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "hammer.salvaged",
+        "pickaxe",
+        "hatchet"
+      ]
+    },
+    "76561198175960717": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198322797470": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198067832578": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561197976717863": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199079870056": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198175137119": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "hammer.salvaged",
+        "pickaxe",
+        "hatchet",
+        "salvaged.sword",
+        "mace",
+        "salvaged.cleaver",
+        "shotgun.waterpipe",
+        "flare",
+        "ammo.pistol",
+        "pistol.revolver",
+        "smg.thompson",
+        "wall.window.bars.metal",
+        "wall.frame.garagedoor",
+        "wall.window.glass.reinforced",
+        "ceilinglight",
+        "electric.switch",
+        "electric.splitter",
+        "electric.solarpanel.large",
+        "electric.battery.rechargable.large",
+        "grenade.beancan",
+        "explosive.satchel",
+        "bucket.water",
+        "water.catcher.small",
+        "water.barrel",
+        "planter.large",
+        "ladder.wooden.wall",
+        "syringe.medical",
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "shutter.metal.embrasure.a",
+        "shutter.metal.embrasure.b",
+        "smg.mp5",
+        "ammo.rifle.explosive",
+        "hoodie",
+        "ammo.rifle",
+        "shoes.boots",
+        "pants",
+        "weapon.mod.small.scope",
+        "wall.window.bars.toptier",
+        "weapon.mod.lasersight",
+        "ammo.rifle.hv",
+        "explosives"
+      ]
+    },
+    "76561198322221859": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198839463238": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "smg.thompson",
+        "ammo.pistol",
+        "syringe.medical",
+        "hoodie",
+        "pistol.semiauto",
+        "pants",
+        "shoes.boots",
+        "pistol.revolver",
+        "hazmatsuit",
+        "ladder.wooden.wall"
+      ]
+    },
+    "76561198260125931": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "smg.thompson",
+        "ammo.pistol",
+        "syringe.medical",
+        "hoodie",
+        "pistol.semiauto",
+        "pants",
+        "shoes.boots",
+        "pistol.revolver",
+        "hazmatsuit",
+        "ladder.wooden.wall"
+      ]
+    },
+    "76561198358807391": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "ammo.pistol",
+        "ammo.shotgun",
+        "hazmatsuit",
+        "weapon.mod.flashlight",
+        "shelves",
+        "ammo.rifle",
+        "guntrap"
+      ]
+    },
+    "76561198104889982": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198107455374": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198199372921": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198300674144": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199072645374": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198374731065": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198114212847": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198984868734": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199104360433": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199103311186": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198208785965": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198876200842": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198317029111": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198135253936": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "spikes.floor",
+        "barricade.wood",
+        "barricade.woodwire",
+        "ladder.wooden.wall",
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "shutter.metal.embrasure.a",
+        "shutter.metal.embrasure.b",
+        "wall.window.glass.reinforced",
+        "wall.frame.garagedoor",
+        "salvaged.sword",
+        "mace",
+        "salvaged.cleaver",
+        "shotgun.waterpipe",
+        "flare",
+        "ammo.shotgun",
+        "shotgun.pump",
+        "trap.landmine",
+        "pistol.semiauto",
+        "grenade.f1",
+        "pistol.python",
+        "flamethrower",
+        "weapon.mod.muzzlebrake",
+        "weapon.mod.muzzleboost",
+        "smg.2",
+        "grenade.smoke",
+        "weapon.mod.flashlight",
+        "hazmatsuit",
+        "hoodie",
+        "rifle.semiauto",
+        "weapon.mod.holosight",
+        "rocket.launcher",
+        "ammo.rocket.fire",
+        "ammo.rocket.hv",
+        "shoes.boots",
+        "wall.window.bars.toptier",
+        "smg.mp5",
+        "weapon.mod.lasersight",
+        "ammo.rifle.hv",
+        "ammo.rifle.explosive",
+        "metalspring",
+        "ammo.rocket.basic",
+        "coffeecan.helmet",
+        "roadsign.gloves",
+        "roadsign.jacket",
+        "roadsign.kilt"
+      ]
+    },
+    "76561198116103589": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198113860249": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198069961372": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "smg.thompson",
+        "weapon.mod.flashlight",
+        "ammo.pistol",
+        "rifle.semiauto",
+        "ammo.rifle",
+        "syringe.medical",
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "ammo.shotgun",
+        "shotgun.pump",
+        "trap.landmine",
+        "pistol.semiauto",
+        "grenade.f1",
+        "pistol.python",
+        "flamethrower",
+        "weapon.mod.muzzlebrake",
+        "grenade.smoke",
+        "weapon.mod.holosight",
+        "rocket.launcher",
+        "wall.frame.garagedoor"
+      ]
+    },
+    "76561198013736100": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198085525569": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "smg.thompson",
+        "weapon.mod.flashlight",
+        "ammo.pistol",
+        "rifle.semiauto",
+        "ammo.rifle",
+        "syringe.medical",
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "ammo.shotgun",
+        "shotgun.pump",
+        "trap.landmine",
+        "pistol.semiauto",
+        "grenade.f1",
+        "pistol.python",
+        "flamethrower",
+        "weapon.mod.muzzlebrake",
+        "grenade.smoke",
+        "weapon.mod.holosight",
+        "rocket.launcher",
+        "wall.frame.garagedoor"
+      ]
+    },
+    "76561198011096784": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "ammo.pistol",
+        "smg.thompson",
+        "syringe.medical",
+        "hatchet",
+        "pickaxe",
+        "guntrap"
+      ]
+    },
+    "76561198079217711": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198083399932": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198162227939": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "hammer.salvaged",
+        "pickaxe",
+        "salvaged.sword"
+      ]
+    },
+    "76561198200325614": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "hammer.salvaged",
+        "pickaxe",
+        "salvaged.sword"
+      ]
+    },
+    "76561198090724616": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "flamethrower",
+        "hazmatsuit",
+        "hammer.salvaged",
+        "pickaxe",
+        "salvaged.sword",
+        "mace",
+        "salvaged.cleaver"
+      ]
+    },
+    "76561198263042893": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "hammer.salvaged",
+        "pickaxe",
+        "hatchet",
+        "syringe.medical",
+        "ladder.wooden.wall",
+        "smg.2",
+        "ammo.pistol",
+        "rifle.semiauto",
+        "weapon.mod.flashlight",
+        "ammo.rifle",
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "shutter.metal.embrasure.a",
+        "shutter.metal.embrasure.b",
+        "wall.window.glass.reinforced",
+        "wall.frame.garagedoor",
+        "ammo.shotgun"
+      ]
+    },
+    "76561198211959647": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198449331769": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198056170639": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198073242661": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198830018587": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "hammer.salvaged",
+        "pickaxe",
+        "hatchet",
+        "syringe.medical",
+        "ladder.wooden.wall",
+        "smg.2",
+        "ammo.pistol",
+        "rifle.semiauto",
+        "weapon.mod.flashlight",
+        "ammo.rifle",
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "shutter.metal.embrasure.a",
+        "shutter.metal.embrasure.b",
+        "wall.window.glass.reinforced",
+        "wall.frame.garagedoor",
+        "ammo.shotgun"
+      ]
+    },
+    "76561198251096844": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199134870157": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198128357214": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561197992663560": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198103911224": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "hazmatsuit",
+        "syringe.medical",
+        "largemedkit",
+        "hammer.salvaged",
+        "pickaxe",
+        "hatchet"
+      ]
+    },
+    "76561198064468137": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198116412399": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198311087344": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199043967521": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199057720021": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198182096787": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198344222926": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "hazmatsuit",
+        "syringe.medical",
+        "largemedkit",
+        "hammer.salvaged",
+        "pickaxe",
+        "hatchet"
+      ]
+    },
+    "76561198347226333": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "largemedkit",
+        "hazmatsuit",
+        "syringe.medical",
+        "shoes.boots",
+        "coffeecan.helmet",
+        "roadsign.jacket",
+        "hoodie",
+        "roadsign.gloves"
+      ]
+    },
+    "76561198023472004": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "hammer.salvaged",
+        "pickaxe",
+        "salvaged.sword",
+        "mace"
+      ]
+    },
+    "76561198134316213": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198118470088": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "hammer.salvaged",
+        "pickaxe",
+        "salvaged.sword",
+        "mace"
+      ]
+    },
+    "76561199096084132": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198184671661": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198266871112": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561197983517539": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198106864899": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "salvaged.sword"
+      ]
+    },
+    "76561198260751653": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199081917735": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198038678847": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198839244170": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198058913504": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198428260754": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "ammo.shotgun",
+        "shotgun.pump",
+        "trap.landmine",
+        "pistol.semiauto",
+        "grenade.f1",
+        "pistol.python",
+        "flamethrower",
+        "hazmatsuit",
+        "syringe.medical",
+        "weapon.mod.muzzlebrake",
+        "smg.thompson",
+        "grenade.smoke",
+        "ammo.rifle"
+      ]
+    },
+    "76561198420451206": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "longsword",
+        "axe.salvaged",
+        "icepick.salvaged",
+        "ammo.shotgun",
+        "shotgun.pump",
+        "trap.landmine",
+        "pistol.semiauto",
+        "grenade.f1",
+        "pistol.python",
+        "flamethrower",
+        "hazmatsuit",
+        "syringe.medical",
+        "weapon.mod.muzzlebrake",
+        "smg.thompson",
+        "grenade.smoke",
+        "ammo.rifle"
+      ]
+    },
+    "76561198182461471": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198033863915": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198139190167": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198037927831": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198076434631": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198096814335": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198137067991": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "flamethrower",
+        "hazmatsuit",
+        "hammer.salvaged",
+        "pickaxe",
+        "salvaged.sword",
+        "mace",
+        "salvaged.cleaver"
+      ]
+    },
+    "76561198928572434": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "pistol.python",
+        "ammo.pistol",
+        "hazmatsuit",
+        "syringe.medical",
+        "wall.window.bars.toptier",
+        "smg.mp5",
+        "weapon.mod.lasersight"
+      ]
+    },
+    "76561198054591334": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "pistol.python",
+        "ammo.pistol",
+        "hazmatsuit",
+        "syringe.medical",
+        "wall.window.bars.toptier",
+        "smg.mp5",
+        "weapon.mod.lasersight"
+      ]
+    },
+    "76561198188537194": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198883200280": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198944139780": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198873372430": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198860974661": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198383050429": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198346628294": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198114333195": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198126332142": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198296554823": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561199056323558": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198109369403": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198303110610": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198802169907": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198348712984": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198079240471": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198112701220": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198115355811": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198174354418": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198122506056": {
+      "sharingEnabled": true,
+      "learntBlueprints": [
+        "mace",
+        "pistol.revolver",
+        "ammo.pistol",
+        "pickaxe",
+        "hatchet"
+      ]
+    },
+    "76561198320298082": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198363164706": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198295851738": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198080657578": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198847067099": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    },
+    "76561198380215774": {
+      "sharingEnabled": true,
+      "learntBlueprints": []
+    }
+  }
+}
