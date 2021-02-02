@@ -1,0 +1,1 @@
+tail -f ~/log/console/*.log
