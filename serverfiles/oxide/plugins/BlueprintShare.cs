@@ -10,7 +10,7 @@ using UnityEngine;
 
 namespace Oxide.Plugins
 {
-    [Info("Blueprint Share", "c_creep", "1.2.1")]
+    [Info("Blueprint Share", "c_creep", "1.2.4")]
     [Description("Allows players to share researched blueprints with their friends, clan or team")]
 
     class BlueprintShare : RustPlugin
@@ -74,15 +74,9 @@ namespace Oxide.Plugins
         {
             var playerUID = player.UserIDString;
 
-            if (!storedData.players.ContainsKey(playerUID))
+            if (!PlayerDataExists(playerUID))
             {
-                storedData.players.Add(playerUID, new PlayerData
-                {
-                    sharingEnabled = true,
-                    learntBlueprints = new List<string>()
-                });
-
-                SaveData();
+                CreateNewPlayerData(playerUID);
             }
         }
 
@@ -92,14 +86,11 @@ namespace Oxide.Plugins
             {
                 if (action == "study")
                 {
-                    var blueprintItem = ItemManager.CreateByItemID(item.blueprintTarget);
+                    var itemShortName = item.blueprintTargetDef.shortname;
 
-                    if (blueprintItem != null)
+                    if (CanShareBlueprint(itemShortName, player))
                     {
-                        if (CanShareBlueprint(blueprintItem, player))
-                        {
-                            item.Remove();
-                        }
+                        item.Remove();
                     }
                 }
             }
@@ -113,12 +104,9 @@ namespace Oxide.Plugins
                 {
                     if (player != null)
                     {
-                        var item = ItemManager.CreateByItemID(node.itemDef.itemid);
-
-                        if (item != null)
-                        {
-                            CanShareBlueprint(item, player);
-                        }
+                        var itemShortName = node.itemDef.shortname;
+                        
+                        CanShareBlueprint(itemShortName, player);
                     }
                 }
             }
@@ -128,12 +116,9 @@ namespace Oxide.Plugins
 
         #region General Methods
 
-        private bool CanShareBlueprint(Item item, BasePlayer player)
+        private bool CanShareBlueprint(string itemShortName, BasePlayer player)
         {
-            if (item == null || player == null) return false;
-            
-            var itemShortName = item.info.shortname;
-
+            if (player == null) return false;
             if (string.IsNullOrEmpty(itemShortName)) return false;
 
             var playerUID = player.UserIDString;
@@ -144,7 +129,7 @@ namespace Oxide.Plugins
                 {
                     if (SomeoneWillLearnBlueprint(player, itemShortName))
                     {
-                        InsertBlueprint(player, itemShortName);
+                        TryInsertBlueprint(player, itemShortName);
                         ShareWithPlayers(player, itemShortName);
                         HandleAdditionalBlueprints(player, itemShortName);
 
@@ -169,7 +154,7 @@ namespace Oxide.Plugins
             }
             else
             {
-                InsertBlueprint(player, itemShortName);
+                TryInsertBlueprint(player, itemShortName);
 
                 return true;
             }
@@ -208,7 +193,7 @@ namespace Oxide.Plugins
                 {
                     if (UnlockBlueprint(recipient, itemShortName))
                     {
-                        InsertBlueprint(recipient, itemShortName);
+                        TryInsertBlueprint(recipient, itemShortName);
                     }
                 }
             }
@@ -235,7 +220,7 @@ namespace Oxide.Plugins
 
                             if (UnlockBlueprint(recipient, itemShortName))
                             {
-                                InsertBlueprint(recipient, itemShortName);
+                                TryInsertBlueprint(recipient, itemShortName);
 
                                 learnedBlueprints++;
                             }
@@ -352,22 +337,52 @@ namespace Oxide.Plugins
             return playersToShareWith;
         }
 
-        private List<string> LoadBlueprints(string playerUID) => storedData.players.ContainsKey(playerUID) ? storedData.players[playerUID].learntBlueprints : null;
-
-        private void InsertBlueprint(BasePlayer player, string itemShortName)
+        private List<string> LoadBlueprints(string playerUID)
         {
-            if (player == null || string.IsNullOrEmpty(itemShortName)) return;
+            if (PlayerDataExists(playerUID))
+            {
+                return storedData.players[playerUID].learntBlueprints;
+            }
+            else
+            {
+                CreateNewPlayerData(playerUID);
 
+                if (storedData.players[playerUID].learntBlueprints == null)
+                {
+                    return storedData.players[playerUID].learntBlueprints = new List<string>();
+                }
+                else
+                {
+                    return storedData.players[playerUID].learntBlueprints;
+                }
+            }
+        }
+
+        private void TryInsertBlueprint(BasePlayer player, string itemShortName)
+        {
             var playerUID = player.UserIDString;
 
-            if (storedData.players.ContainsKey(playerUID))
+            if (PlayerDataExists(playerUID))
             {
-                if (!storedData.players[playerUID].learntBlueprints.Contains(itemShortName))
-                {
-                    storedData.players[playerUID].learntBlueprints.Add(itemShortName);
+                InsertBlueprint(playerUID, itemShortName);
+            }
+            else
+            {
+                CreateNewPlayerData(playerUID);
 
-                    SaveData();
-                }
+                InsertBlueprint(playerUID, itemShortName);
+            }
+        }
+
+        private void InsertBlueprint(string playerUID, string itemShortName)
+        {
+            if (string.IsNullOrEmpty(playerUID) || string.IsNullOrEmpty(itemShortName)) return;
+
+            if (!storedData.players[playerUID].learntBlueprints.Contains(itemShortName))
+            {
+                storedData.players[playerUID].learntBlueprints.Add(itemShortName);
+
+                SaveData();
             }
         }
 
@@ -579,6 +594,19 @@ namespace Oxide.Plugins
         }
 
         private void SaveData() => Interface.Oxide.DataFileSystem.WriteObject(Name, storedData);
+
+        private bool PlayerDataExists(string playerUID) => storedData.players.ContainsKey(playerUID);
+
+        private void CreateNewPlayerData(string playerUID)
+        {
+            storedData.players.Add(playerUID, new PlayerData
+            {
+                sharingEnabled = true,
+                learntBlueprints = new List<string>()
+            });
+
+            SaveData();
+        }
 
         #endregion
 

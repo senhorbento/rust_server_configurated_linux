@@ -16,7 +16,7 @@ using UnityEngine;
 
 namespace Oxide.Plugins
 {
-    [Info("Backpacks", "LaserHydra", "3.3.0")]
+    [Info("Backpacks", "LaserHydra", "3.4.0")]
     [Description("Allows players to have a Backpack which provides them extra inventory space.")]
     internal class Backpacks : RustPlugin
     {
@@ -45,6 +45,7 @@ namespace Oxide.Plugins
         private static Backpacks _instance;
 
         private Configuration _config;
+        private StoredData _storedData;
 
         [PluginReference]
         private RustPlugin EventManager;
@@ -81,18 +82,23 @@ namespace Oxide.Plugins
                 Unsubscribe(nameof(OnPlayerCorpseSpawned));
             }
 
+            _storedData = StoredData.Load();
+
             foreach (var player in BasePlayer.activePlayerList)
                 CreateGUI(player);
         }
 
         private void Unload()
         {
+            _storedData.Save();
+
             foreach (var backpack in _backpacks.Values)
             {
                 backpack.ForceCloseAllLooters();
                 backpack.SaveData();
                 backpack.KillContainer();
             }
+
             foreach (var player in BasePlayer.activePlayerList)
                 DestroyGUI(player);
         }
@@ -138,6 +144,8 @@ namespace Oxide.Plugins
 
         private void OnServerSave()
         {
+            _storedData.Save();
+
             if (_config.SaveBackpacksOnServerSave)
             {
                 foreach (var backpack in _backpacks.Values)
@@ -231,15 +239,7 @@ namespace Oxide.Plugins
                         backpack.EraseContents();
                     else if (_config.DropOnDeath)
                     {
-                        var droppedContainer = backpack.Drop(player.transform.position);
-
-                        if (droppedContainer != null && ConVar.Server.corpses)
-                        {
-                            if (_lastDroppedBackpacks.ContainsKey(player.userID))
-                                _lastDroppedBackpacks[player.userID] = droppedContainer;
-                            else
-                                _lastDroppedBackpacks.Add(player.userID, droppedContainer);
-                        }
+                        DropBackpackWithReducedCorpseCollision(backpack, player.transform.position);
                     }
                 }
             }
@@ -295,6 +295,16 @@ namespace Oxide.Plugins
         {
             if (perm.Equals(GUIPermission))
                 DestroyGUI(BasePlayer.Find(userId));
+        }
+
+        private void OnPlayerConnected(BasePlayer player)
+        {
+            CreateGUI(player);
+        }
+
+        private void OnPlayerSleepEnded(BasePlayer player)
+        {
+            CreateGUI(player);
         }
 
         #endregion
@@ -359,13 +369,21 @@ namespace Oxide.Plugins
             if (player == null || !player.IsAlive())
                 return;
 
-            if (permission.UserHasPermission(player.UserIDString, UsagePermission))
+            if (!permission.UserHasPermission(player.UserIDString, UsagePermission))
             {
-                player.EndLooting();
-                timer.Once(0.1f, () => Backpack.Get(player.userID).Open(player));
-            }
-            else
                 PrintToChat(player, lang.GetMessage("No Permission", this, player.UserIDString));
+                return;
+            }
+
+            if (_openBackpacks.ContainsKey(player))
+            {
+                // HACK: Send empty respawn information to fully close the player inventory (toggle backpack closed)
+                player.ClientRPCPlayer(null, player, "OnRespawnInformation");
+                return;
+            }
+
+            player.EndLooting();
+            timer.Once(0.1f, () => Backpack.Get(player.userID).Open(player));
         }
 
         [ConsoleCommand("backpack.fetch")]
@@ -487,6 +505,29 @@ namespace Oxide.Plugins
             timer.Once(0.5f, () => backpack.Open(player));
         }
 
+        [ChatCommand("backpackgui")]
+        private void ToggleBackpackGUI(BasePlayer player, string cmd, string[] args)
+        {
+            if (!permission.UserHasPermission(player.UserIDString, GUIPermission))
+            {
+                PrintToChat(player, lang.GetMessage("No Permission", this, player.UserIDString));
+                return;
+            }
+
+            if (_storedData.PlayersWithDisabledGUI.Contains(player.userID))
+            {
+                _storedData.PlayersWithDisabledGUI.Remove(player.userID);
+                CreateGUI(player);
+            }
+            else
+            {
+                _storedData.PlayersWithDisabledGUI.Add(player.userID);
+                DestroyGUI(player);
+            }
+
+            PrintToChat(player, lang.GetMessage("Toggled Backpack GUI", this, player.UserIDString));
+        }
+
         #endregion
 
         #region Helper Methods
@@ -578,7 +619,7 @@ namespace Oxide.Plugins
 
         private bool VerifyCanOpenBackpack(BasePlayer looter, ulong ownerId)
         {
-            if (EventManager?.Call<bool>("isPlaying", looter) ?? false)
+            if (IsPlayingEvent(looter))
             {
                 PrintToChat(looter, lang.GetMessage("May Not Open Backpack In Event", this, looter.UserIDString));
                 return false;
@@ -594,14 +635,34 @@ namespace Oxide.Plugins
             return true;
         }
 
-        private void OnPlayerConnected(BasePlayer player)
+        private bool IsPlayingEvent(BasePlayer player)
         {
-            CreateGUI(player);
+            if (EventManager == null)
+                return false;
+
+            // EventManager 3.x
+            var isPlayingResult = EventManager.Call("isPlaying", player);
+            if (isPlayingResult != null)
+                return isPlayingResult is bool && (bool)isPlayingResult;
+
+            // EventManager 4.x
+            var isEventPlayerResult = EventManager.Call("IsEventPlayer", player);
+            return isEventPlayerResult is bool && (bool)isEventPlayerResult;
         }
 
-        private void OnPlayerSleepEnded(BasePlayer player)
+        private DroppedItemContainer DropBackpackWithReducedCorpseCollision(Backpack backpack, Vector3 position)
         {
-            CreateGUI(player);
+            var droppedContainer = backpack.Drop(position);
+
+            if (droppedContainer != null && ConVar.Server.corpses)
+            {
+                if (_lastDroppedBackpacks.ContainsKey(backpack.OwnerId))
+                    _lastDroppedBackpacks[backpack.OwnerId] = droppedContainer;
+                else
+                    _lastDroppedBackpacks.Add(backpack.OwnerId, droppedContainer);
+            }
+
+            return droppedContainer;
         }
 
         private void CreateGUI(BasePlayer player)
@@ -610,6 +671,9 @@ namespace Oxide.Plugins
                 return;
 
             if (!permission.UserHasPermission(player.UserIDString, GUIPermission))
+                return;
+
+            if (_storedData.PlayersWithDisabledGUI.Contains(player.userID))
                 return;
 
             CuiHelper.DestroyUi(player, GUIPanelName);
@@ -676,7 +740,8 @@ namespace Oxide.Plugins
                 ["Invalid Item Amount"] = "Item amount must be an integer greater than 0.",
                 ["Item Not In Backpack"] = "Item \"{0}\" not found in backpack.",
                 ["Items Fetched"] = "Fetched {0} \"{1}\" from backpack.",
-                ["Fetch Failed"] = "Couldn't fetch \"{0}\" from backpack. Inventory may be full."
+                ["Fetch Failed"] = "Couldn't fetch \"{0}\" from backpack. Inventory may be full.",
+                ["Toggled Backpack GUI"] = "Toggled backpack GUI button.",
             }, this);
         }
 
@@ -768,7 +833,38 @@ namespace Oxide.Plugins
 
         #endregion
 
+        #region Stored Data
+
+        private class StoredData
+        {
+            public static StoredData Load()
+            {
+                return Interface.Oxide.DataFileSystem.ExistsDatafile(_instance.Name) ?
+                    Interface.Oxide.DataFileSystem.ReadObject<StoredData>(_instance.Name) :
+                    new StoredData();
+            }
+
+            [JsonProperty("PlayersWithDisabledGUI")]
+            public HashSet<ulong> PlayersWithDisabledGUI = new HashSet<ulong>();
+
+            public void Save() =>
+                Interface.Oxide.DataFileSystem.WriteObject(_instance.Name, this);
+        }
+
+        #endregion
+
         #region Backpack
+
+        private DroppedItemContainer API_DropBackpack(BasePlayer player)
+        {
+            if (!Backpack.HasBackpackFile(player.userID))
+                return null;
+
+            var backpack = Backpack.Get(player.userID);
+            backpack.ForceCloseAllLooters();
+
+            return DropBackpackWithReducedCorpseCollision(backpack, player.transform.position);
+        }
 
         private class Backpack
         {
@@ -898,7 +994,10 @@ namespace Oxide.Plugins
                 }
 
                 if (!_instance.VerifyCanOpenBackpack(looter, OwnerId))
+                {
+                    _instance._openBackpacks.Remove(looter);
                     return;
+                }
 
                 // Only handle overflow when the owner is opening the backpack
                 if (looter.userID == OwnerId)
