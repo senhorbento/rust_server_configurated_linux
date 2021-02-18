@@ -677,6 +677,8 @@
     "horse.saddle": 1,
     "horse.saddlebag": 1,
     "horse.shoes.advanced": 1,
-    "horse.shoes.basic": 1
+    "horse.shoes.basic": 1,
+    "drone": 1,
+    "hat.oxmask": 1
   }
 }
