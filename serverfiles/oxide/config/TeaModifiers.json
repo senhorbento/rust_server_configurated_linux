@@ -1,0 +1,142 @@
+{
+  "Item Modifiers": {
+    "maxhealthtea.advanced": [
+      {
+        "Buff duration (Seconds)": 900.0,
+        "Buff amount": 0.125,
+        "Buff source": "Tea",
+        "Buff type": "Max_Health"
+      }
+    ],
+    "maxhealthtea": [
+      {
+        "Buff duration (Seconds)": 900.0,
+        "Buff amount": 0.05,
+        "Buff source": "Tea",
+        "Buff type": "Max_Health"
+      }
+    ],
+    "maxhealthtea.pure": [
+      {
+        "Buff duration (Seconds)": 900.0,
+        "Buff amount": 0.2,
+        "Buff source": "Tea",
+        "Buff type": "Max_Health"
+      }
+    ],
+    "oretea.advanced": [
+      {
+        "Buff duration (Seconds)": 900.0,
+        "Buff amount": 0.35,
+        "Buff source": "Tea",
+        "Buff type": "Ore_Yield"
+      }
+    ],
+    "oretea": [
+      {
+        "Buff duration (Seconds)": 900.0,
+        "Buff amount": 0.2,
+        "Buff source": "Tea",
+        "Buff type": "Ore_Yield"
+      }
+    ],
+    "oretea.pure": [
+      {
+        "Buff duration (Seconds)": 900.0,
+        "Buff amount": 0.5,
+        "Buff source": "Tea",
+        "Buff type": "Ore_Yield"
+      }
+    ],
+    "radiationresisttea.advanced": [
+      {
+        "Buff duration (Seconds)": 900.0,
+        "Buff amount": 0.15,
+        "Buff source": "Tea",
+        "Buff type": "Radiation_Resistance"
+      },
+      {
+        "Buff duration (Seconds)": 0.0,
+        "Buff amount": 0.5,
+        "Buff source": "Tea",
+        "Buff type": "Radiation_Exposure_Resistance"
+      }
+    ],
+    "radiationresisttea": [
+      {
+        "Buff duration (Seconds)": 900.0,
+        "Buff amount": 0.05,
+        "Buff source": "Tea",
+        "Buff type": "Radiation_Resistance"
+      },
+      {
+        "Buff duration (Seconds)": 900.0,
+        "Buff amount": 0.5,
+        "Buff source": "Tea",
+        "Buff type": "Radiation_Exposure_Resistance"
+      }
+    ],
+    "radiationresisttea.pure": [
+      {
+        "Buff duration (Seconds)": 900.0,
+        "Buff amount": 0.25,
+        "Buff source": "Tea",
+        "Buff type": "Radiation_Resistance"
+      },
+      {
+        "Buff duration (Seconds)": 900.0,
+        "Buff amount": 0.5,
+        "Buff source": "Tea",
+        "Buff type": "Radiation_Exposure_Resistance"
+      }
+    ],
+    "scraptea.advanced": [
+      {
+        "Buff duration (Seconds)": 900.0,
+        "Buff amount": 1.0,
+        "Buff source": "Tea",
+        "Buff type": "Scrap_Yield"
+      }
+    ],
+    "scraptea": [
+      {
+        "Buff duration (Seconds)": 900.0,
+        "Buff amount": 0.5,
+        "Buff source": "Tea",
+        "Buff type": "Scrap_Yield"
+      }
+    ],
+    "scraptea.pure": [
+      {
+        "Buff duration (Seconds)": 900.0,
+        "Buff amount": 2.0,
+        "Buff source": "Tea",
+        "Buff type": "Scrap_Yield"
+      }
+    ],
+    "woodtea.advanced": [
+      {
+        "Buff duration (Seconds)": 900.0,
+        "Buff amount": 1.0,
+        "Buff source": "Tea",
+        "Buff type": "Wood_Yield"
+      }
+    ],
+    "woodtea": [
+      {
+        "Buff duration (Seconds)": 900.0,
+        "Buff amount": 0.5,
+        "Buff source": "Tea",
+        "Buff type": "Wood_Yield"
+      }
+    ],
+    "woodtea.pure": [
+      {
+        "Buff duration (Seconds)": 900.0,
+        "Buff amount": 2.0,
+        "Buff source": "Tea",
+        "Buff type": "Wood_Yield"
+      }
+    ]
+  }
+}

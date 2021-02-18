@@ -1,8 +1,8 @@
 {
-  "Clear Share Data On Map Wipe": false,
+  "Clear Share Data On Map Wipe": true,
   "Team Share Settings": {
     "Enabled": true,
-    "Share Cupboard": true,
+    "Share Cupboard": false,
     "Share Turret": true,
     "Key Lock Settings": {
       "Enabled": true,
@@ -19,7 +19,7 @@
   },
   "Friends Share Settings": {
     "Enabled": true,
-    "Share Cupboard": true,
+    "Share Cupboard": false,
     "Share Turret": true,
     "Key Lock Settings": {
       "Enabled": true,
@@ -36,7 +36,7 @@
   },
   "Clan Share Settings": {
     "Enabled": true,
-    "Share Cupboard": true,
+    "Share Cupboard": false,
     "Share Turret": true,
     "Key Lock Settings": {
       "Enabled": true,

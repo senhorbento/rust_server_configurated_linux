@@ -9,6 +9,7 @@
     "Use Building Owners (You will need BuildingOwners plugin)": false,
     "Remove Button": "FIRE_PRIMARY",
     "Remove Interval (Min = 0.2)": 0.5,
+    "Only start cooldown when an entity is removed": false,
     "RemoveType - All/Structure - Remove per frame": 15,
     "RemoveType - All/Structure - No item container dropped": true,
     "RemoveType - Normal - Max Removable Objects - Exclude admins": true,
@@ -45,7 +46,7 @@
       "Max Removable Objects (0 = Unlimit)": 50,
       "Pay": true,
       "Refund": true,
-      "Reset the time after removing a entity": false
+      "Reset the time after removing an entity": false
     }
   },
   "Remove Type Settings": {
@@ -55,7 +56,7 @@
       "Default Time": 60,
       "Max Time": 300,
       "Gibs": true,
-      "Reset the time after removing a entity": false
+      "Reset the time after removing an entity": false
     },
     "Structure": {
       "Display Name": "Structure",
@@ -63,7 +64,7 @@
       "Default Time": 300,
       "Max Time": 600,
       "Gibs": false,
-      "Reset the time after removing a entity": true
+      "Reset the time after removing an entity": true
     },
     "All": {
       "Display Name": "All",
@@ -71,7 +72,7 @@
       "Default Time": 300,
       "Max Time": 600,
       "Gibs": false,
-      "Reset the time after removing a entity": true
+      "Reset the time after removing an entity": true
     },
     "Admin": {
       "Display Name": "Admin",
@@ -79,7 +80,7 @@
       "Default Time": 300,
       "Max Time": 600,
       "Gibs": true,
-      "Reset the time after removing a entity": true
+      "Reset the time after removing an entity": true
     },
     "External": {
       "Display Name": "External",
@@ -87,7 +88,7 @@
       "Default Time": 300,
       "Max Time": 600,
       "Gibs": true,
-      "Reset the time after removing a entity": true
+      "Reset the time after removing an entity": true
     }
   },
   "Remove Mode Settings (Only one model works)": {
@@ -103,11 +104,15 @@
     "Melee Tool Hit Mode": false,
     "Melee Tool Hit Mode - Item shortname": "hammer",
     "Melee Tool Hit Mode - Item skin (-1 = All skins)": -1,
+    "Melee Tool Hit Mode - Auto enable remover tool when you hold a melee tool": false,
     "Melee Tool Hit Mode - Requires a melee tool in your hand when remover tool is enabled": false,
     "Melee Tool Hit Mode - Disable remover tool when you are not holding a melee tool": false,
     "Specific Tool Mode": false,
     "Specific Tool Mode - Item shortname": "hammer",
-    "Specific Tool Mode - Item skin (-1 = All skins)": -1
+    "Specific Tool Mode - Item skin (-1 = All skins)": -1,
+    "Specific Tool Mode - Auto enable remover tool when you hold a specific tool": false,
+    "Specific Tool Mode - Requires a specific tool in your hand when remover tool is enabled": false,
+    "Specific Tool Mode - Disable remover tool when you are not holding a specific tool": false
   },
   "Raid Blocker Settings": {
     "Enabled": false,
@@ -132,7 +137,7 @@
     "Main Box - Background Color": "0 0 0 0",
     "Remove Title - Box - Min Anchor (in Main Box)": "0 0.84",
     "Remove Title - Box - Max Anchor (in Main Box)": "0.996 1",
-    "Remove Title - Box - Background Color": "0.42 0.88 0.88 1",
+    "Remove Title - Box - Background Color": "0.31 0.88 0.71 1",
     "Remove Title - Text - Min Anchor (in Main Box)": "0.05 0.84",
     "Remove Title - Text - Max Anchor (in Main Box)": "0.6 1",
     "Remove Title - Text - Text Color": "1 0.1 0.1 1",
@@ -146,7 +151,7 @@
     "Timeleft - Text - Text Size": 15,
     "Entity - Box - Min Anchor (in Main Box)": "0 0.68",
     "Entity - Box - Max Anchor (in Main Box)": "1 0.84",
-    "Entity - Box - Background Color": "0 0 0 0.8",
+    "Entity - Box - Background Color": "0.82 0.58 0.30 1",
     "Entity - Text - Min Anchor (in Entity Box)": "0.05 0",
     "Entity - Text - Max Anchor (in Entity Box)": "1 1",
     "Entity - Text - Text Color": "1 1 1 1",
@@ -157,8 +162,8 @@
     "Authorization Check Enabled": true,
     "Authorization Check - Box - Min Anchor (in Main Box)": "0 0.6",
     "Authorization Check - Box - Max Anchor (in Main Box)": "1 0.68",
-    "Authorization Check - Box - Allowed Background": "0 1 0 0.8",
-    "Authorization Check - Box - Refused Background": "1 0 0 0.8",
+    "Authorization Check - Box - Allowed Background Color": "0.22 0.78 0.27 1",
+    "Authorization Check - Box - Refused Background Color": "0.78 0.22 0.27 1",
     "Authorization Check - Text - Min Anchor (in Authorization Check Box)": "0.05 0",
     "Authorization Check - Text - Max Anchor (in Authorization Check Box)": "1 1",
     "Authorization Check - Text - Text Color": "1 1 1 0.9",
@@ -3144,12 +3149,20 @@
         "Refund": {
           "telephone": 1
         }
+      },
+      "drone.deployed": {
+        "Remove Allowed": true,
+        "Display Name": "Drone",
+        "Price": {},
+        "Refund": {
+          "drone": 1
+        }
       }
     }
   },
   "Version": {
     "Major": 4,
     "Minor": 3,
-    "Patch": 23
+    "Patch": 24
   }
 }

@@ -1,0 +1,8 @@
+{
+  "Allow custom sell list for Compound vending machines (see in data)": true,
+  "Disable Compound SafeZone trigger": false,
+  "Disable Compound Turrets": false,
+  "Disable Compound Vending Machines": false,
+  "Disallow Bandit NPC": false,
+  "Disallow Compound NPC": false
+}

@@ -1,0 +1,4 @@
+{
+  "Stop if boat has passengers": false,
+  "Stop if dismounted player is not driver": false
+}

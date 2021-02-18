@@ -1,0 +1,34 @@
+{
+  "Color": {
+    "Hit clan member color": "0 1 0 1",
+    "Hit friend color": "0 1 0 1",
+    "Hit head color": "1 0 0 1",
+    "Hit body color": "1 1 1 1",
+    "Hit NPC body color": "1 1 1 1 ",
+    "Hit Death body color": "1 0 0 1",
+    "Text damage color": "1 1 1 1",
+    "Text head damage color": "1 0 0 1"
+  },
+  "Configuration": {
+    "Damage text size": 15,
+    "Show clan member damage": false,
+    "Show damage": true,
+    "Show death kill": true,
+    "Show friend damage": true,
+    "Show hit icon": true,
+    "Show hits/deaths on NPC (Bears, wolfs, etc.)": true,
+    "Text Font": "robotocondensed-regular.ttf",
+    "Text Outline Color": "0 0 0 1",
+    "Text Outline Distance": "-0.4 0.4",
+    "Time to destroy": 1.0,
+    "Use Clans": true,
+    "Use Friends": true,
+    "Use sound when clan/friends get attacked": false,
+    "When clan/friends get attacked sound fx": "assets/prefabs/instruments/guitar/effects/guitarpluck.prefab"
+  },
+  "Version": {
+    "Major": 2,
+    "Minor": 0,
+    "Patch": 0
+  }
+}

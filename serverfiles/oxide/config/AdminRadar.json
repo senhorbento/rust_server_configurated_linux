@@ -74,7 +74,8 @@
     "Stashes": 250,
     "Tool Cupboard Arrows": 250,
     "Tool Cupboards": 150,
-    "Turrets": 100
+    "Turrets": 100,
+    "Vending Machines": 250
   },
   "Drawing Methods": {
     "Draw Arrows On Players": false,
@@ -155,6 +156,10 @@
       "can.",
       "arrow."
     ],
+    "Entity Information Text Size": 14,
+    "Entity Name Text Size": 14,
+    "Player Information Text Size": 14,
+    "Player Name Text Size": 14,
     "Restrict Access To Auth Level": 1,
     "Restrict Access To Steam64 IDs": [],
     "Re-use Cooldown, Seconds": 0.0,

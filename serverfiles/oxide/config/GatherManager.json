@@ -27,14 +27,13 @@
   "Options": {
     "ExcavatorBeltSpeedMax": 0.1,
     "ExcavatorResourceModifiers": {},
-    "ExcavatorResourceTickRate": 3.0,
+    "ExcavatorResourceTickRate": 1.0,
     "ExcavatorTimeForFullResources": 120.0,
     "GatherDispenserModifiers": {
      "Sulfur Ore": 1.5,
      "Stones": 2.0,
      "Metal Ore": 2.0,
      "High Quality Metal Ore": 1.5,
-     "High Quality Metal": 1.5,
      "*": 3.0
     },
     "GatherResourceModifiers": {
@@ -42,7 +41,6 @@
      "Stones": 2.0,
      "Metal Ore": 2.0,
      "High Quality Metal Ore": 1.5,
-     "High Quality Metal": 1.5,
      "*": 3.0
     },
     "MiningQuarryResourceTickRate": 5.0,
@@ -51,24 +49,13 @@
      "Stones": 2.0,
      "Metal Ore": 2.0,
      "High Quality Metal Ore": 1.5,
-     "High Quality Metal": 1.5,
      "*": 3.0
     },
     "QuarryResourceModifiers": {
-     "Sulfur Ore": 1.5,
-     "Stones": 2.0,
-     "Metal Ore": 2.0,
-     "High Quality Metal Ore": 1.5,
-     "High Quality Metal": 1.5,
-     "*": 3.0
+     "*": 1.0
     },
     "SurveyResourceModifiers": {
-     "Sulfur Ore": 1.5,
-     "Stones": 2.0,
-     "Metal Ore": 2.0,
-     "High Quality Metal Ore": 1.5,
-     "High Quality Metal": 1.5,
-     "*": 3.0
+     "*": 1.0
     }
   },
   "Settings": {
