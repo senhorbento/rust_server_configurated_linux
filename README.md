@@ -1,4 +1,4 @@
-# rust_server_boa_noite_linux_configurated
+# Bem-vindo *Welcome!*
 
 Arquivos do servidor de rust Boa Noite! já configurado
 
