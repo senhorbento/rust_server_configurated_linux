@@ -1,3 +1,5 @@
-# rust_server_linux_configurated
+# rust_server_boa_noite_linux_configurated
 
-Arquivos do servidor Boa Noite! já configurado
+Arquivos do servidor de rust Boa Noite! já configurado
+
+*Files of rust server Boa noite!*
