@@ -1,4 +1,4 @@
-# Bem-vindo *Welcome!*
+# Bem-vindo / *Welcome!*
 
 Arquivos do servidor de rust Boa Noite! já configurado
 
